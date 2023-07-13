@@ -1,0 +1,3684 @@
+{
+    "common": [
+        {
+            "name": "icon-loading",
+            "unicode": "\\ea98"
+        },
+        {
+            "name": "icon-accessibility",
+            "unicode": "\\ea9b"
+        },
+        {
+            "name": "icon-add",
+            "unicode": "\\ea9d"
+        },
+        {
+            "name": "icon-airplane",
+            "unicode": "\\ea9e"
+        },
+        {
+            "name": "icon-alarm",
+            "unicode": "\\ea9f"
+        },
+        {
+            "name": "icon-albums",
+            "unicode": "\\eaa0"
+        },
+        {
+            "name": "icon-alert",
+            "unicode": "\\eaa2"
+        },
+        {
+            "name": "icon-american-football",
+            "unicode": "\\eaa4"
+        },
+        {
+            "name": "icon-analytics",
+            "unicode": "\\eaa5"
+        },
+        {
+            "name": "icon-aperture",
+            "unicode": "\\eaa6"
+        },
+        {
+            "name": "icon-apps",
+            "unicode": "\\eaa8"
+        },
+        {
+            "name": "icon-archive",
+            "unicode": "\\eaa9"
+        },
+        {
+            "name": "icon-arrow-back",
+            "unicode": "\\eaab"
+        },
+        {
+            "name": "icon-arrow-down",
+            "unicode": "\\eaad"
+        },
+        {
+            "name": "icon-arrow-forward",
+            "unicode": "\\eaaf"
+        },
+        {
+            "name": "icon-arrow-redo",
+            "unicode": "\\eab1"
+        },
+        {
+            "name": "icon-arrow-undo",
+            "unicode": "\\eab3"
+        },
+        {
+            "name": "icon-arrow-up",
+            "unicode": "\\eab5"
+        },
+        {
+            "name": "icon-at",
+            "unicode": "\\eab8"
+        },
+        {
+            "name": "icon-attach",
+            "unicode": "\\eab9"
+        },
+        {
+            "name": "icon-backspace",
+            "unicode": "\\eaba"
+        },
+        {
+            "name": "icon-bag-add",
+            "unicode": "\\eabb"
+        },
+        {
+            "name": "icon-bag-check",
+            "unicode": "\\eabc"
+        },
+        {
+            "name": "icon-bag-handle",
+            "unicode": "\\eabd"
+        },
+        {
+            "name": "icon-bag-remove",
+            "unicode": "\\eabe"
+        },
+        {
+            "name": "icon-bag",
+            "unicode": "\\eabf"
+        },
+        {
+            "name": "icon-balloon",
+            "unicode": "\\eac0"
+        },
+        {
+            "name": "icon-ban",
+            "unicode": "\\eac1"
+        },
+        {
+            "name": "icon-bandage",
+            "unicode": "\\eac2"
+        },
+        {
+            "name": "icon-bar-chart",
+            "unicode": "\\eac3"
+        },
+        {
+            "name": "icon-barbell",
+            "unicode": "\\eac4"
+        },
+        {
+            "name": "icon-barcode",
+            "unicode": "\\eac5"
+        },
+        {
+            "name": "icon-baseball",
+            "unicode": "\\eac7"
+        },
+        {
+            "name": "icon-basket",
+            "unicode": "\\eac9"
+        },
+        {
+            "name": "icon-basketball",
+            "unicode": "\\eaca"
+        },
+        {
+            "name": "icon-battery-charging",
+            "unicode": "\\eacb"
+        },
+        {
+            "name": "icon-battery-dead",
+            "unicode": "\\eacc"
+        },
+        {
+            "name": "icon-battery-full",
+            "unicode": "\\eacd"
+        },
+        {
+            "name": "icon-battery-half",
+            "unicode": "\\eace"
+        },
+        {
+            "name": "icon-beaker",
+            "unicode": "\\eacf"
+        },
+        {
+            "name": "icon-bed",
+            "unicode": "\\ead0"
+        },
+        {
+            "name": "icon-beer",
+            "unicode": "\\ead1"
+        },
+        {
+            "name": "icon-bicycle",
+            "unicode": "\\ead2"
+        },
+        {
+            "name": "icon-bluetooth",
+            "unicode": "\\ead3"
+        },
+        {
+            "name": "icon-boat",
+            "unicode": "\\ead4"
+        },
+        {
+            "name": "icon-body",
+            "unicode": "\\ead5"
+        },
+        {
+            "name": "icon-bonfire",
+            "unicode": "\\ead6"
+        },
+        {
+            "name": "icon-book",
+            "unicode": "\\ead7"
+        },
+        {
+            "name": "icon-bookmark",
+            "unicode": "\\ead8"
+        },
+        {
+            "name": "icon-bookmarks",
+            "unicode": "\\ead9"
+        },
+        {
+            "name": "icon-bowling-ball",
+            "unicode": "\\eada"
+        },
+        {
+            "name": "icon-briefcase",
+            "unicode": "\\eadb"
+        },
+        {
+            "name": "icon-browsers",
+            "unicode": "\\eadc"
+        },
+        {
+            "name": "icon-brush",
+            "unicode": "\\eadd"
+        },
+        {
+            "name": "icon-bug",
+            "unicode": "\\eade"
+        },
+        {
+            "name": "icon-build",
+            "unicode": "\\eadf"
+        },
+        {
+            "name": "icon-bulb",
+            "unicode": "\\eae0"
+        },
+        {
+            "name": "icon-bus",
+            "unicode": "\\eae1"
+        },
+        {
+            "name": "icon-business",
+            "unicode": "\\eae2"
+        },
+        {
+            "name": "icon-cafe",
+            "unicode": "\\eae3"
+        },
+        {
+            "name": "icon-calculator",
+            "unicode": "\\eae4"
+        },
+        {
+            "name": "icon-calendar-clear",
+            "unicode": "\\eae5"
+        },
+        {
+            "name": "icon-calendar-number",
+            "unicode": "\\eae6"
+        },
+        {
+            "name": "icon-calendar",
+            "unicode": "\\eae7"
+        },
+        {
+            "name": "icon-call",
+            "unicode": "\\eae8"
+        },
+        {
+            "name": "icon-camera-reverse",
+            "unicode": "\\eae9"
+        },
+        {
+            "name": "icon-camera",
+            "unicode": "\\eaea"
+        },
+        {
+            "name": "icon-car-sport",
+            "unicode": "\\eaeb"
+        },
+        {
+            "name": "icon-car",
+            "unicode": "\\eaec"
+        },
+        {
+            "name": "icon-card",
+            "unicode": "\\eaed"
+        },
+        {
+            "name": "icon-caret-back",
+            "unicode": "\\eaef"
+        },
+        {
+            "name": "icon-caret-down",
+            "unicode": "\\eaf1"
+        },
+        {
+            "name": "icon-caret-forward",
+            "unicode": "\\eaf3"
+        },
+        {
+            "name": "icon-caret-up",
+            "unicode": "\\eaf5"
+        },
+        {
+            "name": "icon-cart",
+            "unicode": "\\eaf6"
+        },
+        {
+            "name": "icon-cash",
+            "unicode": "\\eaf7"
+        },
+        {
+            "name": "icon-cellular",
+            "unicode": "\\eaf8"
+        },
+        {
+            "name": "icon-chatbox-ellipses",
+            "unicode": "\\eaf9"
+        },
+        {
+            "name": "icon-chatbox",
+            "unicode": "\\eafa"
+        },
+        {
+            "name": "icon-chatbubble-ellipses",
+            "unicode": "\\eafb"
+        },
+        {
+            "name": "icon-chatbubble",
+            "unicode": "\\eafc"
+        },
+        {
+            "name": "icon-chatbubbles",
+            "unicode": "\\eafd"
+        },
+        {
+            "name": "icon-checkbox",
+            "unicode": "\\eafe"
+        },
+        {
+            "name": "icon-checkmark-done",
+            "unicode": "\\eb01"
+        },
+        {
+            "name": "icon-checkmark",
+            "unicode": "\\eb02"
+        },
+        {
+            "name": "icon-chevron-back",
+            "unicode": "\\eb04"
+        },
+        {
+            "name": "icon-chevron-down",
+            "unicode": "\\eb06"
+        },
+        {
+            "name": "icon-chevron-forward",
+            "unicode": "\\eb08"
+        },
+        {
+            "name": "icon-chevron-up",
+            "unicode": "\\eb0a"
+        },
+        {
+            "name": "icon-clipboard",
+            "unicode": "\\eb0b"
+        },
+        {
+            "name": "icon-close",
+            "unicode": "\\eb0d"
+        },
+        {
+            "name": "icon-cloud-done",
+            "unicode": "\\eb0f"
+        },
+        {
+            "name": "icon-cloud-download",
+            "unicode": "\\eb10"
+        },
+        {
+            "name": "icon-cloud-offline",
+            "unicode": "\\eb11"
+        },
+        {
+            "name": "icon-cloud-upload",
+            "unicode": "\\eb12"
+        },
+        {
+            "name": "icon-cloud",
+            "unicode": "\\eb13"
+        },
+        {
+            "name": "icon-cloudy-night",
+            "unicode": "\\eb14"
+        },
+        {
+            "name": "icon-cloudy",
+            "unicode": "\\eb15"
+        },
+        {
+            "name": "icon-code-download",
+            "unicode": "\\eb16"
+        },
+        {
+            "name": "icon-code-slash",
+            "unicode": "\\eb17"
+        },
+        {
+            "name": "icon-code-working",
+            "unicode": "\\eb18"
+        },
+        {
+            "name": "icon-code",
+            "unicode": "\\eb19"
+        },
+        {
+            "name": "icon-cog",
+            "unicode": "\\eb1a"
+        },
+        {
+            "name": "icon-color-fill",
+            "unicode": "\\eb1b"
+        },
+        {
+            "name": "icon-color-filter",
+            "unicode": "\\eb1c"
+        },
+        {
+            "name": "icon-color-palette",
+            "unicode": "\\eb1d"
+        },
+        {
+            "name": "icon-color-wand",
+            "unicode": "\\eb1e"
+        },
+        {
+            "name": "icon-compass",
+            "unicode": "\\eb1f"
+        },
+        {
+            "name": "icon-construct",
+            "unicode": "\\eb20"
+        },
+        {
+            "name": "icon-contract",
+            "unicode": "\\eb21"
+        },
+        {
+            "name": "icon-contrast",
+            "unicode": "\\eb22"
+        },
+        {
+            "name": "icon-copy",
+            "unicode": "\\eb23"
+        },
+        {
+            "name": "icon-create",
+            "unicode": "\\eb24"
+        },
+        {
+            "name": "icon-crop",
+            "unicode": "\\eb25"
+        },
+        {
+            "name": "icon-cube",
+            "unicode": "\\eb26"
+        },
+        {
+            "name": "icon-cut",
+            "unicode": "\\eb27"
+        },
+        {
+            "name": "icon-desktop",
+            "unicode": "\\eb28"
+        },
+        {
+            "name": "icon-diamond",
+            "unicode": "\\eb29"
+        },
+        {
+            "name": "icon-dice",
+            "unicode": "\\eb2a"
+        },
+        {
+            "name": "icon-disc",
+            "unicode": "\\eb2b"
+        },
+        {
+            "name": "icon-document-attach",
+            "unicode": "\\eb2c"
+        },
+        {
+            "name": "icon-document-lock",
+            "unicode": "\\eb2d"
+        },
+        {
+            "name": "icon-document-text",
+            "unicode": "\\eb2e"
+        },
+        {
+            "name": "icon-document",
+            "unicode": "\\eb2f"
+        },
+        {
+            "name": "icon-documents",
+            "unicode": "\\eb30"
+        },
+        {
+            "name": "icon-download",
+            "unicode": "\\eb31"
+        },
+        {
+            "name": "icon-duplicate",
+            "unicode": "\\eb32"
+        },
+        {
+            "name": "icon-ear",
+            "unicode": "\\eb33"
+        },
+        {
+            "name": "icon-earth",
+            "unicode": "\\eb34"
+        },
+        {
+            "name": "icon-easel",
+            "unicode": "\\eb35"
+        },
+        {
+            "name": "icon-egg",
+            "unicode": "\\eb36"
+        },
+        {
+            "name": "icon-ellipse",
+            "unicode": "\\eb37"
+        },
+        {
+            "name": "icon-ellipsis-horizontal",
+            "unicode": "\\eb39"
+        },
+        {
+            "name": "icon-ellipsis-vertical",
+            "unicode": "\\eb3b"
+        },
+        {
+            "name": "icon-enter",
+            "unicode": "\\eb3c"
+        },
+        {
+            "name": "icon-exit",
+            "unicode": "\\eb3d"
+        },
+        {
+            "name": "icon-expand",
+            "unicode": "\\eb3e"
+        },
+        {
+            "name": "icon-extension-puzzle",
+            "unicode": "\\eb3f"
+        },
+        {
+            "name": "icon-eye-off",
+            "unicode": "\\eb40"
+        },
+        {
+            "name": "icon-eye",
+            "unicode": "\\eb41"
+        },
+        {
+            "name": "icon-eyedrop",
+            "unicode": "\\eb42"
+        },
+        {
+            "name": "icon-fast-food",
+            "unicode": "\\eb43"
+        },
+        {
+            "name": "icon-female",
+            "unicode": "\\eb44"
+        },
+        {
+            "name": "icon-file-tray-full",
+            "unicode": "\\eb45"
+        },
+        {
+            "name": "icon-file-tray-stacked",
+            "unicode": "\\eb46"
+        },
+        {
+            "name": "icon-file-tray",
+            "unicode": "\\eb47"
+        },
+        {
+            "name": "icon-film",
+            "unicode": "\\eb48"
+        },
+        {
+            "name": "icon-filter",
+            "unicode": "\\eb4a"
+        },
+        {
+            "name": "icon-finger-print",
+            "unicode": "\\eb4b"
+        },
+        {
+            "name": "icon-fish",
+            "unicode": "\\eb4c"
+        },
+        {
+            "name": "icon-fitness",
+            "unicode": "\\eb4d"
+        },
+        {
+            "name": "icon-flag",
+            "unicode": "\\eb4e"
+        },
+        {
+            "name": "icon-flame",
+            "unicode": "\\eb4f"
+        },
+        {
+            "name": "icon-flash-off",
+            "unicode": "\\eb50"
+        },
+        {
+            "name": "icon-flash",
+            "unicode": "\\eb51"
+        },
+        {
+            "name": "icon-flashlight",
+            "unicode": "\\eb52"
+        },
+        {
+            "name": "icon-flask",
+            "unicode": "\\eb53"
+        },
+        {
+            "name": "icon-flower",
+            "unicode": "\\eb54"
+        },
+        {
+            "name": "icon-folder-open",
+            "unicode": "\\eb55"
+        },
+        {
+            "name": "icon-folder",
+            "unicode": "\\eb56"
+        },
+        {
+            "name": "icon-football",
+            "unicode": "\\eb57"
+        },
+        {
+            "name": "icon-footsteps",
+            "unicode": "\\eb58"
+        },
+        {
+            "name": "icon-funnel",
+            "unicode": "\\eb59"
+        },
+        {
+            "name": "icon-game-controller",
+            "unicode": "\\eb5a"
+        },
+        {
+            "name": "icon-gift",
+            "unicode": "\\eb5b"
+        },
+        {
+            "name": "icon-git-branch",
+            "unicode": "\\eb5c"
+        },
+        {
+            "name": "icon-git-commit",
+            "unicode": "\\eb5d"
+        },
+        {
+            "name": "icon-git-compare",
+            "unicode": "\\eb5e"
+        },
+        {
+            "name": "icon-git-merge",
+            "unicode": "\\eb5f"
+        },
+        {
+            "name": "icon-git-network",
+            "unicode": "\\eb60"
+        },
+        {
+            "name": "icon-git-pull-request",
+            "unicode": "\\eb61"
+        },
+        {
+            "name": "icon-glasses",
+            "unicode": "\\eb62"
+        },
+        {
+            "name": "icon-globe",
+            "unicode": "\\eb63"
+        },
+        {
+            "name": "icon-golf",
+            "unicode": "\\eb64"
+        },
+        {
+            "name": "icon-grid",
+            "unicode": "\\eb65"
+        },
+        {
+            "name": "icon-hammer",
+            "unicode": "\\eb66"
+        },
+        {
+            "name": "icon-hand-left",
+            "unicode": "\\eb67"
+        },
+        {
+            "name": "icon-hand-right",
+            "unicode": "\\eb68"
+        },
+        {
+            "name": "icon-happy",
+            "unicode": "\\eb69"
+        },
+        {
+            "name": "icon-hardware-chip",
+            "unicode": "\\eb6a"
+        },
+        {
+            "name": "icon-headset",
+            "unicode": "\\eb6b"
+        },
+        {
+            "name": "icon-heart-dislike",
+            "unicode": "\\eb6e"
+        },
+        {
+            "name": "icon-heart-half",
+            "unicode": "\\eb6f"
+        },
+        {
+            "name": "icon-heart",
+            "unicode": "\\eb70"
+        },
+        {
+            "name": "icon-help-buoy",
+            "unicode": "\\eb71"
+        },
+        {
+            "name": "icon-help",
+            "unicode": "\\eb73"
+        },
+        {
+            "name": "icon-home",
+            "unicode": "\\eb74"
+        },
+        {
+            "name": "icon-hourglass",
+            "unicode": "\\eb75"
+        },
+        {
+            "name": "icon-ice-cream",
+            "unicode": "\\eb76"
+        },
+        {
+            "name": "icon-id-card",
+            "unicode": "\\eb77"
+        },
+        {
+            "name": "icon-image",
+            "unicode": "\\eb78"
+        },
+        {
+            "name": "icon-images",
+            "unicode": "\\eb79"
+        },
+        {
+            "name": "icon-infinite",
+            "unicode": "\\eb7a"
+        },
+        {
+            "name": "icon-information",
+            "unicode": "\\eb7c"
+        },
+        {
+            "name": "icon-invert-mode",
+            "unicode": "\\eb7d"
+        },
+        {
+            "name": "icon-journal",
+            "unicode": "\\eb7e"
+        },
+        {
+            "name": "icon-key",
+            "unicode": "\\eb7f"
+        },
+        {
+            "name": "icon-keypad",
+            "unicode": "\\eb80"
+        },
+        {
+            "name": "icon-language",
+            "unicode": "\\eb81"
+        },
+        {
+            "name": "icon-laptop",
+            "unicode": "\\eb82"
+        },
+        {
+            "name": "icon-layers",
+            "unicode": "\\eb83"
+        },
+        {
+            "name": "icon-leaf",
+            "unicode": "\\eb84"
+        },
+        {
+            "name": "icon-library",
+            "unicode": "\\eb85"
+        },
+        {
+            "name": "icon-link",
+            "unicode": "\\eb86"
+        },
+        {
+            "name": "icon-list",
+            "unicode": "\\eb88"
+        },
+        {
+            "name": "icon-locate",
+            "unicode": "\\eb89"
+        },
+        {
+            "name": "icon-location",
+            "unicode": "\\eb8a"
+        },
+        {
+            "name": "icon-lock-closed",
+            "unicode": "\\eb8b"
+        },
+        {
+            "name": "icon-lock-open",
+            "unicode": "\\eb8c"
+        },
+        {
+            "name": "icon-log-in",
+            "unicode": "\\eb8d"
+        },
+        {
+            "name": "icon-log-out",
+            "unicode": "\\eb8e"
+        },
+        {
+            "name": "icon-logo-alipay",
+            "unicode": "\\eb8f"
+        },
+        {
+            "name": "icon-logo-amazon",
+            "unicode": "\\eb90"
+        },
+        {
+            "name": "icon-logo-amplify",
+            "unicode": "\\eb91"
+        },
+        {
+            "name": "icon-logo-android",
+            "unicode": "\\eb92"
+        },
+        {
+            "name": "icon-logo-angular",
+            "unicode": "\\eb93"
+        },
+        {
+            "name": "icon-logo-apple-appstore",
+            "unicode": "\\eb94"
+        },
+        {
+            "name": "icon-logo-apple-ar",
+            "unicode": "\\eb95"
+        },
+        {
+            "name": "icon-logo-apple",
+            "unicode": "\\eb96"
+        },
+        {
+            "name": "icon-logo-behance",
+            "unicode": "\\eb97"
+        },
+        {
+            "name": "icon-logo-bitbucket",
+            "unicode": "\\eb98"
+        },
+        {
+            "name": "icon-logo-bitcoin",
+            "unicode": "\\eb99"
+        },
+        {
+            "name": "icon-logo-buffer",
+            "unicode": "\\eb9a"
+        },
+        {
+            "name": "icon-logo-capacitor",
+            "unicode": "\\eb9b"
+        },
+        {
+            "name": "icon-logo-chrome",
+            "unicode": "\\eb9c"
+        },
+        {
+            "name": "icon-logo-closed-captioning",
+            "unicode": "\\eb9d"
+        },
+        {
+            "name": "icon-logo-codepen",
+            "unicode": "\\eb9e"
+        },
+        {
+            "name": "icon-logo-css3",
+            "unicode": "\\eb9f"
+        },
+        {
+            "name": "icon-logo-designernews",
+            "unicode": "\\eba0"
+        },
+        {
+            "name": "icon-logo-deviantart",
+            "unicode": "\\eba1"
+        },
+        {
+            "name": "icon-logo-discord",
+            "unicode": "\\eba2"
+        },
+        {
+            "name": "icon-logo-docker",
+            "unicode": "\\eba3"
+        },
+        {
+            "name": "icon-logo-dribbble",
+            "unicode": "\\eba4"
+        },
+        {
+            "name": "icon-logo-dropbox",
+            "unicode": "\\eba5"
+        },
+        {
+            "name": "icon-logo-edge",
+            "unicode": "\\eba6"
+        },
+        {
+            "name": "icon-logo-electron",
+            "unicode": "\\eba7"
+        },
+        {
+            "name": "icon-logo-euro",
+            "unicode": "\\eba8"
+        },
+        {
+            "name": "icon-logo-facebook",
+            "unicode": "\\eba9"
+        },
+        {
+            "name": "icon-logo-figma",
+            "unicode": "\\ebaa"
+        },
+        {
+            "name": "icon-logo-firebase",
+            "unicode": "\\ebab"
+        },
+        {
+            "name": "icon-logo-firefox",
+            "unicode": "\\ebac"
+        },
+        {
+            "name": "icon-logo-flickr",
+            "unicode": "\\ebad"
+        },
+        {
+            "name": "icon-logo-foursquare",
+            "unicode": "\\ebae"
+        },
+        {
+            "name": "icon-logo-github",
+            "unicode": "\\ebaf"
+        },
+        {
+            "name": "icon-logo-gitlab",
+            "unicode": "\\ebb0"
+        },
+        {
+            "name": "icon-logo-google-playstore",
+            "unicode": "\\ebb1"
+        },
+        {
+            "name": "icon-logo-google",
+            "unicode": "\\ebb2"
+        },
+        {
+            "name": "icon-logo-hackernews",
+            "unicode": "\\ebb3"
+        },
+        {
+            "name": "icon-logo-html5",
+            "unicode": "\\ebb4"
+        },
+        {
+            "name": "icon-logo-instagram",
+            "unicode": "\\ebb5"
+        },
+        {
+            "name": "icon-logo-ionic",
+            "unicode": "\\ebb6"
+        },
+        {
+            "name": "icon-logo-ionitron",
+            "unicode": "\\ebb7"
+        },
+        {
+            "name": "icon-logo-javascript",
+            "unicode": "\\ebb8"
+        },
+        {
+            "name": "icon-logo-laravel",
+            "unicode": "\\ebb9"
+        },
+        {
+            "name": "icon-logo-linkedin",
+            "unicode": "\\ebba"
+        },
+        {
+            "name": "icon-logo-markdown",
+            "unicode": "\\ebbb"
+        },
+        {
+            "name": "icon-logo-mastodon",
+            "unicode": "\\ebbc"
+        },
+        {
+            "name": "icon-logo-medium",
+            "unicode": "\\ebbd"
+        },
+        {
+            "name": "icon-logo-microsoft",
+            "unicode": "\\ebbe"
+        },
+        {
+            "name": "icon-logo-no-smoking",
+            "unicode": "\\ebbf"
+        },
+        {
+            "name": "icon-logo-nodejs",
+            "unicode": "\\ebc0"
+        },
+        {
+            "name": "icon-logo-npm",
+            "unicode": "\\ebc1"
+        },
+        {
+            "name": "icon-logo-octocat",
+            "unicode": "\\ebc2"
+        },
+        {
+            "name": "icon-logo-paypal",
+            "unicode": "\\ebc3"
+        },
+        {
+            "name": "icon-logo-pinterest",
+            "unicode": "\\ebc4"
+        },
+        {
+            "name": "icon-logo-playstation",
+            "unicode": "\\ebc5"
+        },
+        {
+            "name": "icon-logo-pwa",
+            "unicode": "\\ebc6"
+        },
+        {
+            "name": "icon-logo-python",
+            "unicode": "\\ebc7"
+        },
+        {
+            "name": "icon-logo-react",
+            "unicode": "\\ebc8"
+        },
+        {
+            "name": "icon-logo-reddit",
+            "unicode": "\\ebc9"
+        },
+        {
+            "name": "icon-logo-rss",
+            "unicode": "\\ebca"
+        },
+        {
+            "name": "icon-logo-sass",
+            "unicode": "\\ebcb"
+        },
+        {
+            "name": "icon-logo-skype",
+            "unicode": "\\ebcc"
+        },
+        {
+            "name": "icon-logo-slack",
+            "unicode": "\\ebcd"
+        },
+        {
+            "name": "icon-logo-snapchat",
+            "unicode": "\\ebce"
+        },
+        {
+            "name": "icon-logo-soundcloud",
+            "unicode": "\\ebcf"
+        },
+        {
+            "name": "icon-logo-stackoverflow",
+            "unicode": "\\ebd0"
+        },
+        {
+            "name": "icon-logo-steam",
+            "unicode": "\\ebd1"
+        },
+        {
+            "name": "icon-logo-stencil",
+            "unicode": "\\ebd2"
+        },
+        {
+            "name": "icon-logo-tableau",
+            "unicode": "\\ebd3"
+        },
+        {
+            "name": "icon-logo-tiktok",
+            "unicode": "\\ebd4"
+        },
+        {
+            "name": "icon-logo-tumblr",
+            "unicode": "\\ebd5"
+        },
+        {
+            "name": "icon-logo-tux",
+            "unicode": "\\ebd6"
+        },
+        {
+            "name": "icon-logo-twitch",
+            "unicode": "\\ebd7"
+        },
+        {
+            "name": "icon-logo-twitter",
+            "unicode": "\\ebd8"
+        },
+        {
+            "name": "icon-logo-usd",
+            "unicode": "\\ebd9"
+        },
+        {
+            "name": "icon-logo-venmo",
+            "unicode": "\\ebda"
+        },
+        {
+            "name": "icon-logo-vercel",
+            "unicode": "\\ebdb"
+        },
+        {
+            "name": "icon-logo-vimeo",
+            "unicode": "\\ebdc"
+        },
+        {
+            "name": "icon-logo-vk",
+            "unicode": "\\ebdd"
+        },
+        {
+            "name": "icon-logo-vue",
+            "unicode": "\\ebde"
+        },
+        {
+            "name": "icon-logo-web-component",
+            "unicode": "\\ebdf"
+        },
+        {
+            "name": "icon-logo-wechat",
+            "unicode": "\\ebe0"
+        },
+        {
+            "name": "icon-logo-whatsapp",
+            "unicode": "\\ebe1"
+        },
+        {
+            "name": "icon-logo-windows",
+            "unicode": "\\ebe2"
+        },
+        {
+            "name": "icon-logo-wordpress",
+            "unicode": "\\ebe3"
+        },
+        {
+            "name": "icon-logo-xbox",
+            "unicode": "\\ebe4"
+        },
+        {
+            "name": "icon-logo-xing",
+            "unicode": "\\ebe5"
+        },
+        {
+            "name": "icon-logo-yahoo",
+            "unicode": "\\ebe6"
+        },
+        {
+            "name": "icon-logo-yen",
+            "unicode": "\\ebe7"
+        },
+        {
+            "name": "icon-logo-youtube",
+            "unicode": "\\ebe8"
+        },
+        {
+            "name": "icon-magnet",
+            "unicode": "\\ebe9"
+        },
+        {
+            "name": "icon-mail-open",
+            "unicode": "\\ebea"
+        },
+        {
+            "name": "icon-mail-unread",
+            "unicode": "\\ebeb"
+        },
+        {
+            "name": "icon-mail",
+            "unicode": "\\ebec"
+        },
+        {
+            "name": "icon-male-female",
+            "unicode": "\\ebed"
+        },
+        {
+            "name": "icon-male",
+            "unicode": "\\ebee"
+        },
+        {
+            "name": "icon-man",
+            "unicode": "\\ebef"
+        },
+        {
+            "name": "icon-map",
+            "unicode": "\\ebf0"
+        },
+        {
+            "name": "icon-medal",
+            "unicode": "\\ebf1"
+        },
+        {
+            "name": "icon-medical",
+            "unicode": "\\ebf2"
+        },
+        {
+            "name": "icon-medkit",
+            "unicode": "\\ebf3"
+        },
+        {
+            "name": "icon-megaphone",
+            "unicode": "\\ebf4"
+        },
+        {
+            "name": "icon-menu",
+            "unicode": "\\ebf5"
+        },
+        {
+            "name": "icon-mic-off",
+            "unicode": "\\ebf8"
+        },
+        {
+            "name": "icon-mic",
+            "unicode": "\\ebf9"
+        },
+        {
+            "name": "icon-moon",
+            "unicode": "\\ebfa"
+        },
+        {
+            "name": "icon-move",
+            "unicode": "\\ebfb"
+        },
+        {
+            "name": "icon-musical-note",
+            "unicode": "\\ebfc"
+        },
+        {
+            "name": "icon-musical-notes",
+            "unicode": "\\ebfd"
+        },
+        {
+            "name": "icon-navigate",
+            "unicode": "\\ebff"
+        },
+        {
+            "name": "icon-newspaper",
+            "unicode": "\\ec00"
+        },
+        {
+            "name": "icon-notifications-off",
+            "unicode": "\\ec03"
+        },
+        {
+            "name": "icon-notifications",
+            "unicode": "\\ec04"
+        },
+        {
+            "name": "icon-nuclear",
+            "unicode": "\\ec05"
+        },
+        {
+            "name": "icon-nutrition",
+            "unicode": "\\ec06"
+        },
+        {
+            "name": "icon-open",
+            "unicode": "\\ec07"
+        },
+        {
+            "name": "icon-options",
+            "unicode": "\\ec08"
+        },
+        {
+            "name": "icon-paper-plane",
+            "unicode": "\\ec09"
+        },
+        {
+            "name": "icon-partly-sunny",
+            "unicode": "\\ec0a"
+        },
+        {
+            "name": "icon-pause",
+            "unicode": "\\ec0c"
+        },
+        {
+            "name": "icon-paw",
+            "unicode": "\\ec0d"
+        },
+        {
+            "name": "icon-pencil",
+            "unicode": "\\ec0e"
+        },
+        {
+            "name": "icon-people",
+            "unicode": "\\ec10"
+        },
+        {
+            "name": "icon-person-add",
+            "unicode": "\\ec11"
+        },
+        {
+            "name": "icon-person-remove",
+            "unicode": "\\ec13"
+        },
+        {
+            "name": "icon-person",
+            "unicode": "\\ec14"
+        },
+        {
+            "name": "icon-phone-landscape",
+            "unicode": "\\ec15"
+        },
+        {
+            "name": "icon-phone-portrait",
+            "unicode": "\\ec16"
+        },
+        {
+            "name": "icon-pie-chart",
+            "unicode": "\\ec17"
+        },
+        {
+            "name": "icon-pin",
+            "unicode": "\\ec18"
+        },
+        {
+            "name": "icon-pint",
+            "unicode": "\\ec19"
+        },
+        {
+            "name": "icon-pizza",
+            "unicode": "\\ec1a"
+        },
+        {
+            "name": "icon-planet",
+            "unicode": "\\ec1b"
+        },
+        {
+            "name": "icon-play-back",
+            "unicode": "\\ec1d"
+        },
+        {
+            "name": "icon-play-forward",
+            "unicode": "\\ec20"
+        },
+        {
+            "name": "icon-play-skip-back",
+            "unicode": "\\ec22"
+        },
+        {
+            "name": "icon-play-skip-forward",
+            "unicode": "\\ec24"
+        },
+        {
+            "name": "icon-play",
+            "unicode": "\\ec25"
+        },
+        {
+            "name": "icon-podium",
+            "unicode": "\\ec26"
+        },
+        {
+            "name": "icon-power",
+            "unicode": "\\ec27"
+        },
+        {
+            "name": "icon-pricetag",
+            "unicode": "\\ec28"
+        },
+        {
+            "name": "icon-pricetags",
+            "unicode": "\\ec29"
+        },
+        {
+            "name": "icon-print",
+            "unicode": "\\ec2a"
+        },
+        {
+            "name": "icon-prism",
+            "unicode": "\\ec2b"
+        },
+        {
+            "name": "icon-pulse",
+            "unicode": "\\ec2c"
+        },
+        {
+            "name": "icon-push",
+            "unicode": "\\ec2d"
+        },
+        {
+            "name": "icon-qr-code",
+            "unicode": "\\ec2e"
+        },
+        {
+            "name": "icon-radio-button-off",
+            "unicode": "\\ec2f"
+        },
+        {
+            "name": "icon-radio-button-on",
+            "unicode": "\\ec30"
+        },
+        {
+            "name": "icon-radio",
+            "unicode": "\\ec31"
+        },
+        {
+            "name": "icon-rainy",
+            "unicode": "\\ec32"
+        },
+        {
+            "name": "icon-reader",
+            "unicode": "\\ec33"
+        },
+        {
+            "name": "icon-receipt",
+            "unicode": "\\ec34"
+        },
+        {
+            "name": "icon-recording",
+            "unicode": "\\ec35"
+        },
+        {
+            "name": "icon-refresh",
+            "unicode": "\\ec37"
+        },
+        {
+            "name": "icon-reload",
+            "unicode": "\\ec39"
+        },
+        {
+            "name": "icon-remove",
+            "unicode": "\\ec3b"
+        },
+        {
+            "name": "icon-reorder-four",
+            "unicode": "\\ec3c"
+        },
+        {
+            "name": "icon-reorder-three",
+            "unicode": "\\ec3d"
+        },
+        {
+            "name": "icon-reorder-two",
+            "unicode": "\\ec3e"
+        },
+        {
+            "name": "icon-repeat",
+            "unicode": "\\ec3f"
+        },
+        {
+            "name": "icon-resize",
+            "unicode": "\\ec40"
+        },
+        {
+            "name": "icon-restaurant",
+            "unicode": "\\ec41"
+        },
+        {
+            "name": "icon-return-down-back",
+            "unicode": "\\ec42"
+        },
+        {
+            "name": "icon-return-down-forward",
+            "unicode": "\\ec43"
+        },
+        {
+            "name": "icon-return-up-back",
+            "unicode": "\\ec44"
+        },
+        {
+            "name": "icon-return-up-forward",
+            "unicode": "\\ec45"
+        },
+        {
+            "name": "icon-ribbon",
+            "unicode": "\\ec46"
+        },
+        {
+            "name": "icon-rocket",
+            "unicode": "\\ec47"
+        },
+        {
+            "name": "icon-rose",
+            "unicode": "\\ec48"
+        },
+        {
+            "name": "icon-sad",
+            "unicode": "\\ec49"
+        },
+        {
+            "name": "icon-save",
+            "unicode": "\\ec4a"
+        },
+        {
+            "name": "icon-scale",
+            "unicode": "\\ec4b"
+        },
+        {
+            "name": "icon-scan",
+            "unicode": "\\ec4d"
+        },
+        {
+            "name": "icon-school",
+            "unicode": "\\ec4e"
+        },
+        {
+            "name": "icon-search",
+            "unicode": "\\ec50"
+        },
+        {
+            "name": "icon-send",
+            "unicode": "\\ec51"
+        },
+        {
+            "name": "icon-server",
+            "unicode": "\\ec52"
+        },
+        {
+            "name": "icon-settings",
+            "unicode": "\\ec53"
+        },
+        {
+            "name": "icon-shapes",
+            "unicode": "\\ec54"
+        },
+        {
+            "name": "icon-share-social",
+            "unicode": "\\ec55"
+        },
+        {
+            "name": "icon-share",
+            "unicode": "\\ec56"
+        },
+        {
+            "name": "icon-shield-checkmark",
+            "unicode": "\\ec57"
+        },
+        {
+            "name": "icon-shield-half",
+            "unicode": "\\ec58"
+        },
+        {
+            "name": "icon-shield",
+            "unicode": "\\ec59"
+        },
+        {
+            "name": "icon-shirt",
+            "unicode": "\\ec5a"
+        },
+        {
+            "name": "icon-shuffle",
+            "unicode": "\\ec5b"
+        },
+        {
+            "name": "icon-skull",
+            "unicode": "\\ec5c"
+        },
+        {
+            "name": "icon-snow",
+            "unicode": "\\ec5d"
+        },
+        {
+            "name": "icon-sparkles",
+            "unicode": "\\ec5e"
+        },
+        {
+            "name": "icon-speedometer",
+            "unicode": "\\ec5f"
+        },
+        {
+            "name": "icon-square",
+            "unicode": "\\ec60"
+        },
+        {
+            "name": "icon-star-half",
+            "unicode": "\\ec61"
+        },
+        {
+            "name": "icon-star",
+            "unicode": "\\ec62"
+        },
+        {
+            "name": "icon-stats-chart",
+            "unicode": "\\ec63"
+        },
+        {
+            "name": "icon-stop",
+            "unicode": "\\ec65"
+        },
+        {
+            "name": "icon-stopwatch",
+            "unicode": "\\ec66"
+        },
+        {
+            "name": "icon-storefront",
+            "unicode": "\\ec67"
+        },
+        {
+            "name": "icon-subway",
+            "unicode": "\\ec68"
+        },
+        {
+            "name": "icon-sunny",
+            "unicode": "\\ec69"
+        },
+        {
+            "name": "icon-swap-horizontal",
+            "unicode": "\\ec6a"
+        },
+        {
+            "name": "icon-swap-vertical",
+            "unicode": "\\ec6b"
+        },
+        {
+            "name": "icon-sync",
+            "unicode": "\\ec6d"
+        },
+        {
+            "name": "icon-tablet-landscape",
+            "unicode": "\\ec6e"
+        },
+        {
+            "name": "icon-tablet-portrait",
+            "unicode": "\\ec6f"
+        },
+        {
+            "name": "icon-telescope",
+            "unicode": "\\ec70"
+        },
+        {
+            "name": "icon-tennisball",
+            "unicode": "\\ec71"
+        },
+        {
+            "name": "icon-terminal",
+            "unicode": "\\ec72"
+        },
+        {
+            "name": "icon-text",
+            "unicode": "\\ec73"
+        },
+        {
+            "name": "icon-thermometer",
+            "unicode": "\\ec74"
+        },
+        {
+            "name": "icon-thumbs-down",
+            "unicode": "\\ec75"
+        },
+        {
+            "name": "icon-thumbs-up",
+            "unicode": "\\ec76"
+        },
+        {
+            "name": "icon-thunderstorm",
+            "unicode": "\\ec77"
+        },
+        {
+            "name": "icon-ticket",
+            "unicode": "\\ec78"
+        },
+        {
+            "name": "icon-time",
+            "unicode": "\\ec79"
+        },
+        {
+            "name": "icon-timer",
+            "unicode": "\\ec7a"
+        },
+        {
+            "name": "icon-today",
+            "unicode": "\\ec7b"
+        },
+        {
+            "name": "icon-toggle",
+            "unicode": "\\ec7c"
+        },
+        {
+            "name": "icon-trail-sign",
+            "unicode": "\\ec7d"
+        },
+        {
+            "name": "icon-train",
+            "unicode": "\\ec7e"
+        },
+        {
+            "name": "icon-transgender",
+            "unicode": "\\ec7f"
+        },
+        {
+            "name": "icon-trash-bin",
+            "unicode": "\\ec80"
+        },
+        {
+            "name": "icon-trash",
+            "unicode": "\\ec81"
+        },
+        {
+            "name": "icon-trending-down",
+            "unicode": "\\ec82"
+        },
+        {
+            "name": "icon-trending-up",
+            "unicode": "\\ec83"
+        },
+        {
+            "name": "icon-triangle",
+            "unicode": "\\ec84"
+        },
+        {
+            "name": "icon-trophy",
+            "unicode": "\\ec85"
+        },
+        {
+            "name": "icon-tv",
+            "unicode": "\\ec86"
+        },
+        {
+            "name": "icon-umbrella",
+            "unicode": "\\ec87"
+        },
+        {
+            "name": "icon-unlink",
+            "unicode": "\\ec88"
+        },
+        {
+            "name": "icon-videocam-off",
+            "unicode": "\\ec89"
+        },
+        {
+            "name": "icon-videocam",
+            "unicode": "\\ec8a"
+        },
+        {
+            "name": "icon-volume-high",
+            "unicode": "\\ec8b"
+        },
+        {
+            "name": "icon-volume-low",
+            "unicode": "\\ec8c"
+        },
+        {
+            "name": "icon-volume-medium",
+            "unicode": "\\ec8d"
+        },
+        {
+            "name": "icon-volume-mute",
+            "unicode": "\\ec8e"
+        },
+        {
+            "name": "icon-volume-off",
+            "unicode": "\\ec8f"
+        },
+        {
+            "name": "icon-walk",
+            "unicode": "\\ec90"
+        },
+        {
+            "name": "icon-wallet",
+            "unicode": "\\ec91"
+        },
+        {
+            "name": "icon-warning",
+            "unicode": "\\ec92"
+        },
+        {
+            "name": "icon-watch",
+            "unicode": "\\ec93"
+        },
+        {
+            "name": "icon-water",
+            "unicode": "\\ec94"
+        },
+        {
+            "name": "icon-wifi",
+            "unicode": "\\ec95"
+        },
+        {
+            "name": "icon-wine",
+            "unicode": "\\ec96"
+        },
+        {
+            "name": "icon-woman",
+            "unicode": "\\ec97"
+        }
+    ],
+    "outline": [
+        {
+            "name": "icon-accessibility-outline",
+            "unicode": "\\ea9a"
+        },
+        {
+            "name": "icon-american-football-outline",
+            "unicode": "\\eaa3"
+        },
+        {
+            "name": "icon-apps-outline",
+            "unicode": "\\eaa7"
+        },
+        {
+            "name": "icon-at-circle-outline",
+            "unicode": "\\eab6"
+        },
+        {
+            "name": "icon-baseball-outline",
+            "unicode": "\\eac6"
+        },
+        {
+            "name": "icon-basket-outline",
+            "unicode": "\\eac8"
+        },
+        {
+            "name": "icon-add-circle-outline",
+            "unicode": "\\e900"
+        },
+        {
+            "name": "icon-add-outline",
+            "unicode": "\\e901"
+        },
+        {
+            "name": "icon-airplane-outline",
+            "unicode": "\\e902"
+        },
+        {
+            "name": "icon-alarm-outline",
+            "unicode": "\\e903"
+        },
+        {
+            "name": "icon-albums-outline",
+            "unicode": "\\e904"
+        },
+        {
+            "name": "icon-alert-circle-outline",
+            "unicode": "\\e905"
+        },
+        {
+            "name": "icon-alert-outline",
+            "unicode": "\\e906"
+        },
+        {
+            "name": "icon-analytics-outline",
+            "unicode": "\\e907"
+        },
+        {
+            "name": "icon-aperture-outline",
+            "unicode": "\\e908"
+        },
+        {
+            "name": "icon-archive-outline",
+            "unicode": "\\e909"
+        },
+        {
+            "name": "icon-arrow-back-circle-outline",
+            "unicode": "\\e90a"
+        },
+        {
+            "name": "icon-arrow-back-outline",
+            "unicode": "\\e90b"
+        },
+        {
+            "name": "icon-arrow-down-circle-outline",
+            "unicode": "\\e90c"
+        },
+        {
+            "name": "icon-arrow-down-outline",
+            "unicode": "\\e90d"
+        },
+        {
+            "name": "icon-arrow-forward-circle-outline",
+            "unicode": "\\e90e"
+        },
+        {
+            "name": "icon-arrow-forward-outline",
+            "unicode": "\\e90f"
+        },
+        {
+            "name": "icon-arrow-redo-circle-outline",
+            "unicode": "\\e910"
+        },
+        {
+            "name": "icon-arrow-redo-outline",
+            "unicode": "\\e911"
+        },
+        {
+            "name": "icon-arrow-undo-circle-outline",
+            "unicode": "\\e912"
+        },
+        {
+            "name": "icon-arrow-undo-outline",
+            "unicode": "\\e913"
+        },
+        {
+            "name": "icon-arrow-up-circle-outline",
+            "unicode": "\\e914"
+        },
+        {
+            "name": "icon-arrow-up-outline",
+            "unicode": "\\e915"
+        },
+        {
+            "name": "icon-at-outline",
+            "unicode": "\\e916"
+        },
+        {
+            "name": "icon-attach-outline",
+            "unicode": "\\e917"
+        },
+        {
+            "name": "icon-backspace-outline",
+            "unicode": "\\e918"
+        },
+        {
+            "name": "icon-bag-add-outline",
+            "unicode": "\\e919"
+        },
+        {
+            "name": "icon-bag-check-outline",
+            "unicode": "\\e91a"
+        },
+        {
+            "name": "icon-bag-handle-outline",
+            "unicode": "\\e91b"
+        },
+        {
+            "name": "icon-bag-outline",
+            "unicode": "\\e91c"
+        },
+        {
+            "name": "icon-bag-remove-outline",
+            "unicode": "\\e91d"
+        },
+        {
+            "name": "icon-balloon-outline",
+            "unicode": "\\e91e"
+        },
+        {
+            "name": "icon-ban-outline",
+            "unicode": "\\e91f"
+        },
+        {
+            "name": "icon-bandage-outline",
+            "unicode": "\\e920"
+        },
+        {
+            "name": "icon-bar-chart-outline",
+            "unicode": "\\e921"
+        },
+        {
+            "name": "icon-barbell-outline",
+            "unicode": "\\e922"
+        },
+        {
+            "name": "icon-barcode-outline",
+            "unicode": "\\e923"
+        },
+        {
+            "name": "icon-basketball-outline",
+            "unicode": "\\e924"
+        },
+        {
+            "name": "icon-battery-charging-outline",
+            "unicode": "\\e925"
+        },
+        {
+            "name": "icon-battery-dead-outline",
+            "unicode": "\\e926"
+        },
+        {
+            "name": "icon-battery-full-outline",
+            "unicode": "\\e927"
+        },
+        {
+            "name": "icon-battery-half-outline",
+            "unicode": "\\e928"
+        },
+        {
+            "name": "icon-beaker-outline",
+            "unicode": "\\e929"
+        },
+        {
+            "name": "icon-bed-outline",
+            "unicode": "\\e92a"
+        },
+        {
+            "name": "icon-beer-outline",
+            "unicode": "\\e92b"
+        },
+        {
+            "name": "icon-bicycle-outline",
+            "unicode": "\\e92c"
+        },
+        {
+            "name": "icon-bluetooth-outline",
+            "unicode": "\\e92d"
+        },
+        {
+            "name": "icon-boat-outline",
+            "unicode": "\\e92e"
+        },
+        {
+            "name": "icon-body-outline",
+            "unicode": "\\e92f"
+        },
+        {
+            "name": "icon-bonfire-outline",
+            "unicode": "\\e930"
+        },
+        {
+            "name": "icon-book-outline",
+            "unicode": "\\e931"
+        },
+        {
+            "name": "icon-bookmark-outline",
+            "unicode": "\\e932"
+        },
+        {
+            "name": "icon-bookmarks-outline",
+            "unicode": "\\e933"
+        },
+        {
+            "name": "icon-bowling-ball-outline",
+            "unicode": "\\e934"
+        },
+        {
+            "name": "icon-briefcase-outline",
+            "unicode": "\\e935"
+        },
+        {
+            "name": "icon-browsers-outline",
+            "unicode": "\\e936"
+        },
+        {
+            "name": "icon-brush-outline",
+            "unicode": "\\e937"
+        },
+        {
+            "name": "icon-bug-outline",
+            "unicode": "\\e938"
+        },
+        {
+            "name": "icon-build-outline",
+            "unicode": "\\e939"
+        },
+        {
+            "name": "icon-bulb-outline",
+            "unicode": "\\e93a"
+        },
+        {
+            "name": "icon-bus-outline",
+            "unicode": "\\e93b"
+        },
+        {
+            "name": "icon-business-outline",
+            "unicode": "\\e93c"
+        },
+        {
+            "name": "icon-cafe-outline",
+            "unicode": "\\e93d"
+        },
+        {
+            "name": "icon-calculator-outline",
+            "unicode": "\\e93e"
+        },
+        {
+            "name": "icon-calendar-clear-outline",
+            "unicode": "\\e93f"
+        },
+        {
+            "name": "icon-calendar-number-outline",
+            "unicode": "\\e940"
+        },
+        {
+            "name": "icon-calendar-outline",
+            "unicode": "\\e941"
+        },
+        {
+            "name": "icon-call-outline",
+            "unicode": "\\e942"
+        },
+        {
+            "name": "icon-camera-outline",
+            "unicode": "\\e943"
+        },
+        {
+            "name": "icon-camera-reverse-outline",
+            "unicode": "\\e944"
+        },
+        {
+            "name": "icon-car-outline",
+            "unicode": "\\e945"
+        },
+        {
+            "name": "icon-car-sport-outline",
+            "unicode": "\\e946"
+        },
+        {
+            "name": "icon-card-outline",
+            "unicode": "\\e947"
+        },
+        {
+            "name": "icon-caret-back-circle-outline",
+            "unicode": "\\e948"
+        },
+        {
+            "name": "icon-caret-back-outline",
+            "unicode": "\\e949"
+        },
+        {
+            "name": "icon-caret-down-circle-outline",
+            "unicode": "\\e94a"
+        },
+        {
+            "name": "icon-caret-down-outline",
+            "unicode": "\\e94b"
+        },
+        {
+            "name": "icon-caret-forward-circle-outline",
+            "unicode": "\\e94c"
+        },
+        {
+            "name": "icon-caret-forward-outline",
+            "unicode": "\\e94d"
+        },
+        {
+            "name": "icon-caret-up-circle-outline",
+            "unicode": "\\e94e"
+        },
+        {
+            "name": "icon-caret-up-outline",
+            "unicode": "\\e94f"
+        },
+        {
+            "name": "icon-cart-outline",
+            "unicode": "\\e950"
+        },
+        {
+            "name": "icon-cash-outline",
+            "unicode": "\\e951"
+        },
+        {
+            "name": "icon-cellular-outline",
+            "unicode": "\\e952"
+        },
+        {
+            "name": "icon-chatbox-ellipses-outline",
+            "unicode": "\\e953"
+        },
+        {
+            "name": "icon-chatbox-outline",
+            "unicode": "\\e954"
+        },
+        {
+            "name": "icon-chatbubble-ellipses-outline",
+            "unicode": "\\e955"
+        },
+        {
+            "name": "icon-chatbubble-outline",
+            "unicode": "\\e956"
+        },
+        {
+            "name": "icon-chatbubbles-outline",
+            "unicode": "\\e957"
+        },
+        {
+            "name": "icon-checkbox-outline",
+            "unicode": "\\e958"
+        },
+        {
+            "name": "icon-checkmark-circle-outline",
+            "unicode": "\\e959"
+        },
+        {
+            "name": "icon-checkmark-done-circle-outline",
+            "unicode": "\\e95a"
+        },
+        {
+            "name": "icon-checkmark-done-outline",
+            "unicode": "\\e95b"
+        },
+        {
+            "name": "icon-checkmark-outline",
+            "unicode": "\\e95c"
+        },
+        {
+            "name": "icon-chevron-back-circle-outline",
+            "unicode": "\\e95d"
+        },
+        {
+            "name": "icon-chevron-back-outline",
+            "unicode": "\\e95e"
+        },
+        {
+            "name": "icon-chevron-down-circle-outline",
+            "unicode": "\\e95f"
+        },
+        {
+            "name": "icon-chevron-down-outline",
+            "unicode": "\\e960"
+        },
+        {
+            "name": "icon-chevron-forward-circle-outline",
+            "unicode": "\\e961"
+        },
+        {
+            "name": "icon-chevron-forward-outline",
+            "unicode": "\\e962"
+        },
+        {
+            "name": "icon-chevron-up-circle-outline",
+            "unicode": "\\e963"
+        },
+        {
+            "name": "icon-chevron-up-outline",
+            "unicode": "\\e964"
+        },
+        {
+            "name": "icon-clipboard-outline",
+            "unicode": "\\e965"
+        },
+        {
+            "name": "icon-close-circle-outline",
+            "unicode": "\\e966"
+        },
+        {
+            "name": "icon-close-outline",
+            "unicode": "\\e967"
+        },
+        {
+            "name": "icon-cloud-circle-outline",
+            "unicode": "\\e968"
+        },
+        {
+            "name": "icon-cloud-done-outline",
+            "unicode": "\\e969"
+        },
+        {
+            "name": "icon-cloud-download-outline",
+            "unicode": "\\e96a"
+        },
+        {
+            "name": "icon-cloud-offline-outline",
+            "unicode": "\\e96b"
+        },
+        {
+            "name": "icon-cloud-outline",
+            "unicode": "\\e96c"
+        },
+        {
+            "name": "icon-cloud-upload-outline",
+            "unicode": "\\e96d"
+        },
+        {
+            "name": "icon-cloudy-night-outline",
+            "unicode": "\\e96e"
+        },
+        {
+            "name": "icon-cloudy-outline",
+            "unicode": "\\e96f"
+        },
+        {
+            "name": "icon-code-download-outline",
+            "unicode": "\\e970"
+        },
+        {
+            "name": "icon-code-outline",
+            "unicode": "\\e971"
+        },
+        {
+            "name": "icon-code-slash-outline",
+            "unicode": "\\e972"
+        },
+        {
+            "name": "icon-code-working-outline",
+            "unicode": "\\e973"
+        },
+        {
+            "name": "icon-cog-outline",
+            "unicode": "\\e974"
+        },
+        {
+            "name": "icon-color-fill-outline",
+            "unicode": "\\e975"
+        },
+        {
+            "name": "icon-color-filter-outline",
+            "unicode": "\\e976"
+        },
+        {
+            "name": "icon-color-palette-outline",
+            "unicode": "\\e977"
+        },
+        {
+            "name": "icon-color-wand-outline",
+            "unicode": "\\e978"
+        },
+        {
+            "name": "icon-compass-outline",
+            "unicode": "\\e979"
+        },
+        {
+            "name": "icon-construct-outline",
+            "unicode": "\\e97a"
+        },
+        {
+            "name": "icon-contract-outline",
+            "unicode": "\\e97b"
+        },
+        {
+            "name": "icon-contrast-outline",
+            "unicode": "\\e97c"
+        },
+        {
+            "name": "icon-copy-outline",
+            "unicode": "\\e97d"
+        },
+        {
+            "name": "icon-create-outline",
+            "unicode": "\\e97e"
+        },
+        {
+            "name": "icon-crop-outline",
+            "unicode": "\\e97f"
+        },
+        {
+            "name": "icon-cube-outline",
+            "unicode": "\\e980"
+        },
+        {
+            "name": "icon-cut-outline",
+            "unicode": "\\e981"
+        },
+        {
+            "name": "icon-desktop-outline",
+            "unicode": "\\e982"
+        },
+        {
+            "name": "icon-diamond-outline",
+            "unicode": "\\e983"
+        },
+        {
+            "name": "icon-dice-outline",
+            "unicode": "\\e984"
+        },
+        {
+            "name": "icon-disc-outline",
+            "unicode": "\\e985"
+        },
+        {
+            "name": "icon-document-attach-outline",
+            "unicode": "\\e986"
+        },
+        {
+            "name": "icon-document-lock-outline",
+            "unicode": "\\e987"
+        },
+        {
+            "name": "icon-document-outline",
+            "unicode": "\\e988"
+        },
+        {
+            "name": "icon-document-text-outline",
+            "unicode": "\\e989"
+        },
+        {
+            "name": "icon-documents-outline",
+            "unicode": "\\e98a"
+        },
+        {
+            "name": "icon-download-outline",
+            "unicode": "\\e98b"
+        },
+        {
+            "name": "icon-duplicate-outline",
+            "unicode": "\\e98c"
+        },
+        {
+            "name": "icon-ear-outline",
+            "unicode": "\\e98d"
+        },
+        {
+            "name": "icon-earth-outline",
+            "unicode": "\\e98e"
+        },
+        {
+            "name": "icon-easel-outline",
+            "unicode": "\\e98f"
+        },
+        {
+            "name": "icon-egg-outline",
+            "unicode": "\\e990"
+        },
+        {
+            "name": "icon-ellipse-outline",
+            "unicode": "\\e991"
+        },
+        {
+            "name": "icon-ellipsis-horizontal-circle-outline",
+            "unicode": "\\e992"
+        },
+        {
+            "name": "icon-ellipsis-horizontal-outline",
+            "unicode": "\\e993"
+        },
+        {
+            "name": "icon-ellipsis-vertical-circle-outline",
+            "unicode": "\\e994"
+        },
+        {
+            "name": "icon-ellipsis-vertical-outline",
+            "unicode": "\\e995"
+        },
+        {
+            "name": "icon-enter-outline",
+            "unicode": "\\e996"
+        },
+        {
+            "name": "icon-exit-outline",
+            "unicode": "\\e997"
+        },
+        {
+            "name": "icon-expand-outline",
+            "unicode": "\\e998"
+        },
+        {
+            "name": "icon-extension-puzzle-outline",
+            "unicode": "\\e999"
+        },
+        {
+            "name": "icon-eye-off-outline",
+            "unicode": "\\e99a"
+        },
+        {
+            "name": "icon-eye-outline",
+            "unicode": "\\e99b"
+        },
+        {
+            "name": "icon-eyedrop-outline",
+            "unicode": "\\e99c"
+        },
+        {
+            "name": "icon-fast-food-outline",
+            "unicode": "\\e99d"
+        },
+        {
+            "name": "icon-female-outline",
+            "unicode": "\\e99e"
+        },
+        {
+            "name": "icon-file-tray-full-outline",
+            "unicode": "\\e99f"
+        },
+        {
+            "name": "icon-file-tray-outline",
+            "unicode": "\\e9a0"
+        },
+        {
+            "name": "icon-file-tray-stacked-outline",
+            "unicode": "\\e9a1"
+        },
+        {
+            "name": "icon-film-outline",
+            "unicode": "\\e9a2"
+        },
+        {
+            "name": "icon-filter-circle-outline",
+            "unicode": "\\e9a3"
+        },
+        {
+            "name": "icon-filter-outline",
+            "unicode": "\\e9a4"
+        },
+        {
+            "name": "icon-finger-print-outline",
+            "unicode": "\\e9a5"
+        },
+        {
+            "name": "icon-fish-outline",
+            "unicode": "\\e9a6"
+        },
+        {
+            "name": "icon-fitness-outline",
+            "unicode": "\\e9a7"
+        },
+        {
+            "name": "icon-flag-outline",
+            "unicode": "\\e9a8"
+        },
+        {
+            "name": "icon-flame-outline",
+            "unicode": "\\e9a9"
+        },
+        {
+            "name": "icon-flash-off-outline",
+            "unicode": "\\e9aa"
+        },
+        {
+            "name": "icon-flash-outline",
+            "unicode": "\\e9ab"
+        },
+        {
+            "name": "icon-flashlight-outline",
+            "unicode": "\\e9ac"
+        },
+        {
+            "name": "icon-flask-outline",
+            "unicode": "\\e9ad"
+        },
+        {
+            "name": "icon-flower-outline",
+            "unicode": "\\e9ae"
+        },
+        {
+            "name": "icon-folder-open-outline",
+            "unicode": "\\e9af"
+        },
+        {
+            "name": "icon-folder-outline",
+            "unicode": "\\e9b0"
+        },
+        {
+            "name": "icon-football-outline",
+            "unicode": "\\e9b1"
+        },
+        {
+            "name": "icon-footsteps-outline",
+            "unicode": "\\e9b2"
+        },
+        {
+            "name": "icon-funnel-outline",
+            "unicode": "\\e9b3"
+        },
+        {
+            "name": "icon-game-controller-outline",
+            "unicode": "\\e9b4"
+        },
+        {
+            "name": "icon-gift-outline",
+            "unicode": "\\e9b5"
+        },
+        {
+            "name": "icon-git-branch-outline",
+            "unicode": "\\e9b6"
+        },
+        {
+            "name": "icon-git-commit-outline",
+            "unicode": "\\e9b7"
+        },
+        {
+            "name": "icon-git-compare-outline",
+            "unicode": "\\e9b8"
+        },
+        {
+            "name": "icon-git-merge-outline",
+            "unicode": "\\e9b9"
+        },
+        {
+            "name": "icon-git-network-outline",
+            "unicode": "\\e9ba"
+        },
+        {
+            "name": "icon-git-pull-request-outline",
+            "unicode": "\\e9bb"
+        },
+        {
+            "name": "icon-glasses-outline",
+            "unicode": "\\e9bc"
+        },
+        {
+            "name": "icon-globe-outline",
+            "unicode": "\\e9bd"
+        },
+        {
+            "name": "icon-golf-outline",
+            "unicode": "\\e9be"
+        },
+        {
+            "name": "icon-grid-outline",
+            "unicode": "\\e9bf"
+        },
+        {
+            "name": "icon-hammer-outline",
+            "unicode": "\\e9c0"
+        },
+        {
+            "name": "icon-hand-left-outline",
+            "unicode": "\\e9c1"
+        },
+        {
+            "name": "icon-hand-right-outline",
+            "unicode": "\\e9c2"
+        },
+        {
+            "name": "icon-happy-outline",
+            "unicode": "\\e9c3"
+        },
+        {
+            "name": "icon-hardware-chip-outline",
+            "unicode": "\\e9c4"
+        },
+        {
+            "name": "icon-headset-outline",
+            "unicode": "\\e9c5"
+        },
+        {
+            "name": "icon-heart-circle-outline",
+            "unicode": "\\e9c6"
+        },
+        {
+            "name": "icon-heart-dislike-circle-outline",
+            "unicode": "\\e9c7"
+        },
+        {
+            "name": "icon-heart-dislike-outline",
+            "unicode": "\\e9c8"
+        },
+        {
+            "name": "icon-heart-half-outline",
+            "unicode": "\\e9c9"
+        },
+        {
+            "name": "icon-heart-outline",
+            "unicode": "\\e9ca"
+        },
+        {
+            "name": "icon-help-buoy-outline",
+            "unicode": "\\e9cb"
+        },
+        {
+            "name": "icon-help-circle-outline",
+            "unicode": "\\e9cc"
+        },
+        {
+            "name": "icon-help-outline",
+            "unicode": "\\e9cd"
+        },
+        {
+            "name": "icon-home-outline",
+            "unicode": "\\e9ce"
+        },
+        {
+            "name": "icon-hourglass-outline",
+            "unicode": "\\e9cf"
+        },
+        {
+            "name": "icon-ice-cream-outline",
+            "unicode": "\\e9d0"
+        },
+        {
+            "name": "icon-id-card-outline",
+            "unicode": "\\e9d1"
+        },
+        {
+            "name": "icon-image-outline",
+            "unicode": "\\e9d2"
+        },
+        {
+            "name": "icon-images-outline",
+            "unicode": "\\e9d3"
+        },
+        {
+            "name": "icon-infinite-outline",
+            "unicode": "\\e9d4"
+        },
+        {
+            "name": "icon-information-circle-outline",
+            "unicode": "\\e9d5"
+        },
+        {
+            "name": "icon-information-outline",
+            "unicode": "\\e9d6"
+        },
+        {
+            "name": "icon-invert-mode-outline",
+            "unicode": "\\e9d7"
+        },
+        {
+            "name": "icon-journal-outline",
+            "unicode": "\\e9d8"
+        },
+        {
+            "name": "icon-key-outline",
+            "unicode": "\\e9d9"
+        },
+        {
+            "name": "icon-keypad-outline",
+            "unicode": "\\e9da"
+        },
+        {
+            "name": "icon-language-outline",
+            "unicode": "\\e9db"
+        },
+        {
+            "name": "icon-laptop-outline",
+            "unicode": "\\e9dc"
+        },
+        {
+            "name": "icon-layers-outline",
+            "unicode": "\\e9dd"
+        },
+        {
+            "name": "icon-leaf-outline",
+            "unicode": "\\e9de"
+        },
+        {
+            "name": "icon-library-outline",
+            "unicode": "\\e9df"
+        },
+        {
+            "name": "icon-link-outline",
+            "unicode": "\\e9e0"
+        },
+        {
+            "name": "icon-list-circle-outline",
+            "unicode": "\\e9e1"
+        },
+        {
+            "name": "icon-list-outline",
+            "unicode": "\\e9e2"
+        },
+        {
+            "name": "icon-locate-outline",
+            "unicode": "\\e9e3"
+        },
+        {
+            "name": "icon-location-outline",
+            "unicode": "\\e9e4"
+        },
+        {
+            "name": "icon-lock-closed-outline",
+            "unicode": "\\e9e5"
+        },
+        {
+            "name": "icon-lock-open-outline",
+            "unicode": "\\e9e6"
+        },
+        {
+            "name": "icon-log-in-outline",
+            "unicode": "\\e9e7"
+        },
+        {
+            "name": "icon-log-out-outline",
+            "unicode": "\\e9e8"
+        },
+        {
+            "name": "icon-magnet-outline",
+            "unicode": "\\e9e9"
+        },
+        {
+            "name": "icon-mail-open-outline",
+            "unicode": "\\e9ea"
+        },
+        {
+            "name": "icon-mail-outline",
+            "unicode": "\\e9eb"
+        },
+        {
+            "name": "icon-mail-unread-outline",
+            "unicode": "\\e9ec"
+        },
+        {
+            "name": "icon-male-female-outline",
+            "unicode": "\\e9ed"
+        },
+        {
+            "name": "icon-male-outline",
+            "unicode": "\\e9ee"
+        },
+        {
+            "name": "icon-man-outline",
+            "unicode": "\\e9ef"
+        },
+        {
+            "name": "icon-map-outline",
+            "unicode": "\\e9f0"
+        },
+        {
+            "name": "icon-medal-outline",
+            "unicode": "\\e9f1"
+        },
+        {
+            "name": "icon-medical-outline",
+            "unicode": "\\e9f2"
+        },
+        {
+            "name": "icon-medkit-outline",
+            "unicode": "\\e9f3"
+        },
+        {
+            "name": "icon-megaphone-outline",
+            "unicode": "\\e9f4"
+        },
+        {
+            "name": "icon-menu-outline",
+            "unicode": "\\e9f5"
+        },
+        {
+            "name": "icon-mic-circle-outline",
+            "unicode": "\\e9f6"
+        },
+        {
+            "name": "icon-mic-off-circle-outline",
+            "unicode": "\\e9f7"
+        },
+        {
+            "name": "icon-mic-off-outline",
+            "unicode": "\\e9f8"
+        },
+        {
+            "name": "icon-mic-outline",
+            "unicode": "\\e9f9"
+        },
+        {
+            "name": "icon-moon-outline",
+            "unicode": "\\e9fa"
+        },
+        {
+            "name": "icon-move-outline",
+            "unicode": "\\e9fb"
+        },
+        {
+            "name": "icon-musical-note-outline",
+            "unicode": "\\e9fc"
+        },
+        {
+            "name": "icon-musical-notes-outline",
+            "unicode": "\\e9fd"
+        },
+        {
+            "name": "icon-navigate-circle-outline",
+            "unicode": "\\e9fe"
+        },
+        {
+            "name": "icon-navigate-outline",
+            "unicode": "\\e9ff"
+        },
+        {
+            "name": "icon-newspaper-outline",
+            "unicode": "\\ea00"
+        },
+        {
+            "name": "icon-notifications-circle-outline",
+            "unicode": "\\ea01"
+        },
+        {
+            "name": "icon-notifications-off-circle-outline",
+            "unicode": "\\ea02"
+        },
+        {
+            "name": "icon-notifications-off-outline",
+            "unicode": "\\ea03"
+        },
+        {
+            "name": "icon-notifications-outline",
+            "unicode": "\\ea04"
+        },
+        {
+            "name": "icon-nuclear-outline",
+            "unicode": "\\ea05"
+        },
+        {
+            "name": "icon-nutrition-outline",
+            "unicode": "\\ea06"
+        },
+        {
+            "name": "icon-open-outline",
+            "unicode": "\\ea07"
+        },
+        {
+            "name": "icon-options-outline",
+            "unicode": "\\ea08"
+        },
+        {
+            "name": "icon-paper-plane-outline",
+            "unicode": "\\ea09"
+        },
+        {
+            "name": "icon-partly-sunny-outline",
+            "unicode": "\\ea0a"
+        },
+        {
+            "name": "icon-pause-circle-outline",
+            "unicode": "\\ea0b"
+        },
+        {
+            "name": "icon-pause-outline",
+            "unicode": "\\ea0c"
+        },
+        {
+            "name": "icon-paw-outline",
+            "unicode": "\\ea0d"
+        },
+        {
+            "name": "icon-pencil-outline",
+            "unicode": "\\ea0e"
+        },
+        {
+            "name": "icon-people-circle-outline",
+            "unicode": "\\ea0f"
+        },
+        {
+            "name": "icon-people-outline",
+            "unicode": "\\ea10"
+        },
+        {
+            "name": "icon-person-add-outline",
+            "unicode": "\\ea11"
+        },
+        {
+            "name": "icon-person-circle-outline",
+            "unicode": "\\ea12"
+        },
+        {
+            "name": "icon-person-outline",
+            "unicode": "\\ea13"
+        },
+        {
+            "name": "icon-person-remove-outline",
+            "unicode": "\\ea14"
+        },
+        {
+            "name": "icon-phone-landscape-outline",
+            "unicode": "\\ea15"
+        },
+        {
+            "name": "icon-phone-portrait-outline",
+            "unicode": "\\ea16"
+        },
+        {
+            "name": "icon-pie-chart-outline",
+            "unicode": "\\ea17"
+        },
+        {
+            "name": "icon-pin-outline",
+            "unicode": "\\ea18"
+        },
+        {
+            "name": "icon-pint-outline",
+            "unicode": "\\ea19"
+        },
+        {
+            "name": "icon-pizza-outline",
+            "unicode": "\\ea1a"
+        },
+        {
+            "name": "icon-planet-outline",
+            "unicode": "\\ea1b"
+        },
+        {
+            "name": "icon-play-back-circle-outline",
+            "unicode": "\\ea1c"
+        },
+        {
+            "name": "icon-play-back-outline",
+            "unicode": "\\ea1d"
+        },
+        {
+            "name": "icon-play-circle-outline",
+            "unicode": "\\ea1e"
+        },
+        {
+            "name": "icon-play-forward-circle-outline",
+            "unicode": "\\ea1f"
+        },
+        {
+            "name": "icon-play-forward-outline",
+            "unicode": "\\ea20"
+        },
+        {
+            "name": "icon-play-outline",
+            "unicode": "\\ea21"
+        },
+        {
+            "name": "icon-play-skip-back-circle-outline",
+            "unicode": "\\ea22"
+        },
+        {
+            "name": "icon-play-skip-back-outline",
+            "unicode": "\\ea23"
+        },
+        {
+            "name": "icon-play-skip-forward-circle-outline",
+            "unicode": "\\ea24"
+        },
+        {
+            "name": "icon-play-skip-forward-outline",
+            "unicode": "\\ea25"
+        },
+        {
+            "name": "icon-podium-outline",
+            "unicode": "\\ea26"
+        },
+        {
+            "name": "icon-power-outline",
+            "unicode": "\\ea27"
+        },
+        {
+            "name": "icon-pricetag-outline",
+            "unicode": "\\ea28"
+        },
+        {
+            "name": "icon-pricetags-outline",
+            "unicode": "\\ea29"
+        },
+        {
+            "name": "icon-print-outline",
+            "unicode": "\\ea2a"
+        },
+        {
+            "name": "icon-prism-outline",
+            "unicode": "\\ea2b"
+        },
+        {
+            "name": "icon-pulse-outline",
+            "unicode": "\\ea2c"
+        },
+        {
+            "name": "icon-push-outline",
+            "unicode": "\\ea2d"
+        },
+        {
+            "name": "icon-qr-code-outline",
+            "unicode": "\\ea2e"
+        },
+        {
+            "name": "icon-radio-button-off-outline",
+            "unicode": "\\ea2f"
+        },
+        {
+            "name": "icon-radio-button-on-outline",
+            "unicode": "\\ea30"
+        },
+        {
+            "name": "icon-radio-outline",
+            "unicode": "\\ea31"
+        },
+        {
+            "name": "icon-rainy-outline",
+            "unicode": "\\ea32"
+        },
+        {
+            "name": "icon-reader-outline",
+            "unicode": "\\ea33"
+        },
+        {
+            "name": "icon-receipt-outline",
+            "unicode": "\\ea34"
+        },
+        {
+            "name": "icon-recording-outline",
+            "unicode": "\\ea35"
+        },
+        {
+            "name": "icon-refresh-circle-outline",
+            "unicode": "\\ea36"
+        },
+        {
+            "name": "icon-refresh-outline",
+            "unicode": "\\ea37"
+        },
+        {
+            "name": "icon-reload-circle-outline",
+            "unicode": "\\ea38"
+        },
+        {
+            "name": "icon-reload-outline",
+            "unicode": "\\ea39"
+        },
+        {
+            "name": "icon-remove-circle-outline",
+            "unicode": "\\ea3a"
+        },
+        {
+            "name": "icon-remove-outline",
+            "unicode": "\\ea3b"
+        },
+        {
+            "name": "icon-reorder-four-outline",
+            "unicode": "\\ea3c"
+        },
+        {
+            "name": "icon-reorder-three-outline",
+            "unicode": "\\ea3d"
+        },
+        {
+            "name": "icon-reorder-two-outline",
+            "unicode": "\\ea3e"
+        },
+        {
+            "name": "icon-repeat-outline",
+            "unicode": "\\ea3f"
+        },
+        {
+            "name": "icon-resize-outline",
+            "unicode": "\\ea40"
+        },
+        {
+            "name": "icon-restaurant-outline",
+            "unicode": "\\ea41"
+        },
+        {
+            "name": "icon-return-down-back-outline",
+            "unicode": "\\ea42"
+        },
+        {
+            "name": "icon-return-down-forward-outline",
+            "unicode": "\\ea43"
+        },
+        {
+            "name": "icon-return-up-back-outline",
+            "unicode": "\\ea44"
+        },
+        {
+            "name": "icon-return-up-forward-outline",
+            "unicode": "\\ea45"
+        },
+        {
+            "name": "icon-ribbon-outline",
+            "unicode": "\\ea46"
+        },
+        {
+            "name": "icon-rocket-outline",
+            "unicode": "\\ea47"
+        },
+        {
+            "name": "icon-rose-outline",
+            "unicode": "\\ea48"
+        },
+        {
+            "name": "icon-sad-outline",
+            "unicode": "\\ea49"
+        },
+        {
+            "name": "icon-save-outline",
+            "unicode": "\\ea4a"
+        },
+        {
+            "name": "icon-scale-outline",
+            "unicode": "\\ea4b"
+        },
+        {
+            "name": "icon-scan-circle-outline",
+            "unicode": "\\ea4c"
+        },
+        {
+            "name": "icon-scan-outline",
+            "unicode": "\\ea4d"
+        },
+        {
+            "name": "icon-school-outline",
+            "unicode": "\\ea4e"
+        },
+        {
+            "name": "icon-search-circle-outline",
+            "unicode": "\\ea4f"
+        },
+        {
+            "name": "icon-search-outline",
+            "unicode": "\\ea50"
+        },
+        {
+            "name": "icon-send-outline",
+            "unicode": "\\ea51"
+        },
+        {
+            "name": "icon-server-outline",
+            "unicode": "\\ea52"
+        },
+        {
+            "name": "icon-settings-outline",
+            "unicode": "\\ea53"
+        },
+        {
+            "name": "icon-shapes-outline",
+            "unicode": "\\ea54"
+        },
+        {
+            "name": "icon-share-outline",
+            "unicode": "\\ea55"
+        },
+        {
+            "name": "icon-share-social-outline",
+            "unicode": "\\ea56"
+        },
+        {
+            "name": "icon-shield-checkmark-outline",
+            "unicode": "\\ea57"
+        },
+        {
+            "name": "icon-shield-half-outline",
+            "unicode": "\\ea58"
+        },
+        {
+            "name": "icon-shield-outline",
+            "unicode": "\\ea59"
+        },
+        {
+            "name": "icon-shirt-outline",
+            "unicode": "\\ea5a"
+        },
+        {
+            "name": "icon-shuffle-outline",
+            "unicode": "\\ea5b"
+        },
+        {
+            "name": "icon-skull-outline",
+            "unicode": "\\ea5c"
+        },
+        {
+            "name": "icon-snow-outline",
+            "unicode": "\\ea5d"
+        },
+        {
+            "name": "icon-sparkles-outline",
+            "unicode": "\\ea5e"
+        },
+        {
+            "name": "icon-speedometer-outline",
+            "unicode": "\\ea5f"
+        },
+        {
+            "name": "icon-square-outline",
+            "unicode": "\\ea60"
+        },
+        {
+            "name": "icon-star-half-outline",
+            "unicode": "\\ea61"
+        },
+        {
+            "name": "icon-star-outline",
+            "unicode": "\\ea62"
+        },
+        {
+            "name": "icon-stats-chart-outline",
+            "unicode": "\\ea63"
+        },
+        {
+            "name": "icon-stop-circle-outline",
+            "unicode": "\\ea64"
+        },
+        {
+            "name": "icon-stop-outline",
+            "unicode": "\\ea65"
+        },
+        {
+            "name": "icon-stopwatch-outline",
+            "unicode": "\\ea66"
+        },
+        {
+            "name": "icon-storefront-outline",
+            "unicode": "\\ea67"
+        },
+        {
+            "name": "icon-subway-outline",
+            "unicode": "\\ea68"
+        },
+        {
+            "name": "icon-sunny-outline",
+            "unicode": "\\ea69"
+        },
+        {
+            "name": "icon-swap-horizontal-outline",
+            "unicode": "\\ea6a"
+        },
+        {
+            "name": "icon-swap-vertical-outline",
+            "unicode": "\\ea6b"
+        },
+        {
+            "name": "icon-sync-circle-outline",
+            "unicode": "\\ea6c"
+        },
+        {
+            "name": "icon-sync-outline",
+            "unicode": "\\ea6d"
+        },
+        {
+            "name": "icon-tablet-landscape-outline",
+            "unicode": "\\ea6e"
+        },
+        {
+            "name": "icon-tablet-portrait-outline",
+            "unicode": "\\ea6f"
+        },
+        {
+            "name": "icon-telescope-outline",
+            "unicode": "\\ea70"
+        },
+        {
+            "name": "icon-tennisball-outline",
+            "unicode": "\\ea71"
+        },
+        {
+            "name": "icon-terminal-outline",
+            "unicode": "\\ea72"
+        },
+        {
+            "name": "icon-text-outline",
+            "unicode": "\\ea73"
+        },
+        {
+            "name": "icon-thermometer-outline",
+            "unicode": "\\ea74"
+        },
+        {
+            "name": "icon-thumbs-down-outline",
+            "unicode": "\\ea75"
+        },
+        {
+            "name": "icon-thumbs-up-outline",
+            "unicode": "\\ea76"
+        },
+        {
+            "name": "icon-thunderstorm-outline",
+            "unicode": "\\ea77"
+        },
+        {
+            "name": "icon-ticket-outline",
+            "unicode": "\\ea78"
+        },
+        {
+            "name": "icon-time-outline",
+            "unicode": "\\ea79"
+        },
+        {
+            "name": "icon-timer-outline",
+            "unicode": "\\ea7a"
+        },
+        {
+            "name": "icon-today-outline",
+            "unicode": "\\ea7b"
+        },
+        {
+            "name": "icon-toggle-outline",
+            "unicode": "\\ea7c"
+        },
+        {
+            "name": "icon-trail-sign-outline",
+            "unicode": "\\ea7d"
+        },
+        {
+            "name": "icon-train-outline",
+            "unicode": "\\ea7e"
+        },
+        {
+            "name": "icon-transgender-outline",
+            "unicode": "\\ea7f"
+        },
+        {
+            "name": "icon-trash-bin-outline",
+            "unicode": "\\ea80"
+        },
+        {
+            "name": "icon-trash-outline",
+            "unicode": "\\ea81"
+        },
+        {
+            "name": "icon-trending-down-outline",
+            "unicode": "\\ea82"
+        },
+        {
+            "name": "icon-trending-up-outline",
+            "unicode": "\\ea83"
+        },
+        {
+            "name": "icon-triangle-outline",
+            "unicode": "\\ea84"
+        },
+        {
+            "name": "icon-trophy-outline",
+            "unicode": "\\ea85"
+        },
+        {
+            "name": "icon-tv-outline",
+            "unicode": "\\ea86"
+        },
+        {
+            "name": "icon-umbrella-outline",
+            "unicode": "\\ea87"
+        },
+        {
+            "name": "icon-unlink-outline",
+            "unicode": "\\ea88"
+        },
+        {
+            "name": "icon-videocam-off-outline",
+            "unicode": "\\ea89"
+        },
+        {
+            "name": "icon-videocam-outline",
+            "unicode": "\\ea8a"
+        },
+        {
+            "name": "icon-volume-high-outline",
+            "unicode": "\\ea8b"
+        },
+        {
+            "name": "icon-volume-low-outline",
+            "unicode": "\\ea8c"
+        },
+        {
+            "name": "icon-volume-medium-outline",
+            "unicode": "\\ea8d"
+        },
+        {
+            "name": "icon-volume-mute-outline",
+            "unicode": "\\ea8e"
+        },
+        {
+            "name": "icon-volume-off-outline",
+            "unicode": "\\ea8f"
+        },
+        {
+            "name": "icon-walk-outline",
+            "unicode": "\\ea90"
+        },
+        {
+            "name": "icon-wallet-outline",
+            "unicode": "\\ea91"
+        },
+        {
+            "name": "icon-warning-outline",
+            "unicode": "\\ea92"
+        },
+        {
+            "name": "icon-watch-outline",
+            "unicode": "\\ea93"
+        },
+        {
+            "name": "icon-water-outline",
+            "unicode": "\\ea94"
+        },
+        {
+            "name": "icon-wifi-outline",
+            "unicode": "\\ea95"
+        },
+        {
+            "name": "icon-wine-outline",
+            "unicode": "\\ea96"
+        },
+        {
+            "name": "icon-woman-outline",
+            "unicode": "\\ea97"
+        }
+    ],
+    "circle": [
+        {
+            "name": "icon-add-circle",
+            "unicode": "\\ea9c"
+        },
+        {
+            "name": "icon-alert-circle",
+            "unicode": "\\eaa1"
+        },
+        {
+            "name": "icon-arrow-back-circle",
+            "unicode": "\\eaaa"
+        },
+        {
+            "name": "icon-arrow-down-circle",
+            "unicode": "\\eaac"
+        },
+        {
+            "name": "icon-arrow-forward-circle",
+            "unicode": "\\eaae"
+        },
+        {
+            "name": "icon-arrow-redo-circle",
+            "unicode": "\\eab0"
+        },
+        {
+            "name": "icon-arrow-undo-circle",
+            "unicode": "\\eab2"
+        },
+        {
+            "name": "icon-arrow-up-circle",
+            "unicode": "\\eab4"
+        },
+        {
+            "name": "icon-at-circle",
+            "unicode": "\\eab7"
+        },
+        {
+            "name": "icon-caret-back-circle",
+            "unicode": "\\eaee"
+        },
+        {
+            "name": "icon-caret-down-circle",
+            "unicode": "\\eaf0"
+        },
+        {
+            "name": "icon-caret-forward-circle",
+            "unicode": "\\eaf2"
+        },
+        {
+            "name": "icon-caret-up-circle",
+            "unicode": "\\eaf4"
+        },
+        {
+            "name": "icon-checkmark-circle",
+            "unicode": "\\eaff"
+        },
+        {
+            "name": "icon-checkmark-done-circle",
+            "unicode": "\\eb00"
+        },
+        {
+            "name": "icon-chevron-back-circle",
+            "unicode": "\\eb03"
+        },
+        {
+            "name": "icon-chevron-down-circle",
+            "unicode": "\\eb05"
+        },
+        {
+            "name": "icon-chevron-forward-circle",
+            "unicode": "\\eb07"
+        },
+        {
+            "name": "icon-chevron-up-circle",
+            "unicode": "\\eb09"
+        },
+        {
+            "name": "icon-close-circle",
+            "unicode": "\\eb0c"
+        },
+        {
+            "name": "icon-cloud-circle",
+            "unicode": "\\eb0e"
+        },
+        {
+            "name": "icon-ellipsis-horizontal-circle",
+            "unicode": "\\eb38"
+        },
+        {
+            "name": "icon-ellipsis-vertical-circle",
+            "unicode": "\\eb3a"
+        },
+        {
+            "name": "icon-filter-circle",
+            "unicode": "\\eb49"
+        },
+        {
+            "name": "icon-heart-circle",
+            "unicode": "\\eb6c"
+        },
+        {
+            "name": "icon-heart-dislike-circle",
+            "unicode": "\\eb6d"
+        },
+        {
+            "name": "icon-help-circle",
+            "unicode": "\\eb72"
+        },
+        {
+            "name": "icon-information-circle",
+            "unicode": "\\eb7b"
+        },
+        {
+            "name": "icon-list-circle",
+            "unicode": "\\eb87"
+        },
+        {
+            "name": "icon-mic-circle",
+            "unicode": "\\ebf6"
+        },
+        {
+            "name": "icon-mic-off-circle",
+            "unicode": "\\ebf7"
+        },
+        {
+            "name": "icon-navigate-circle",
+            "unicode": "\\ebfe"
+        },
+        {
+            "name": "icon-notifications-circle",
+            "unicode": "\\ec01"
+        },
+        {
+            "name": "icon-notifications-off-circle",
+            "unicode": "\\ec02"
+        },
+        {
+            "name": "icon-pause-circle",
+            "unicode": "\\ec0b"
+        },
+        {
+            "name": "icon-people-circle",
+            "unicode": "\\ec0f"
+        },
+        {
+            "name": "icon-person-circle",
+            "unicode": "\\ec12"
+        },
+        {
+            "name": "icon-play-back-circle",
+            "unicode": "\\ec1c"
+        },
+        {
+            "name": "icon-play-circle",
+            "unicode": "\\ec1e"
+        },
+        {
+            "name": "icon-play-forward-circle",
+            "unicode": "\\ec1f"
+        },
+        {
+            "name": "icon-play-skip-back-circle",
+            "unicode": "\\ec21"
+        },
+        {
+            "name": "icon-play-skip-forward-circle",
+            "unicode": "\\ec23"
+        },
+        {
+            "name": "icon-refresh-circle",
+            "unicode": "\\ec36"
+        },
+        {
+            "name": "icon-reload-circle",
+            "unicode": "\\ec38"
+        },
+        {
+            "name": "icon-remove-circle",
+            "unicode": "\\ec3a"
+        },
+        {
+            "name": "icon-scan-circle",
+            "unicode": "\\ec4c"
+        },
+        {
+            "name": "icon-search-circle",
+            "unicode": "\\ec4f"
+        },
+        {
+            "name": "icon-stop-circle",
+            "unicode": "\\ec64"
+        },
+        {
+            "name": "icon-sync-circle",
+            "unicode": "\\ec6c"
+        }
+    ]
+}

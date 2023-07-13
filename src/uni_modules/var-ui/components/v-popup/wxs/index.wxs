@@ -1,0 +1,49 @@
+
+function onTouchStart(event, ins){
+  ins.callMethod("onTouchStart", {
+		changedTouches: event.changedTouches,
+		currentTarget: event.currentTarget,
+		touches: event.touches,
+		type: event.type,
+    timeStamp:event.timeStamp,
+    isWxs:true
+	})
+
+}
+function onTouchMove(event, ins){
+  ins.callMethod("onTouchMove", {
+		changedTouches: event.changedTouches,
+		currentTarget: event.currentTarget,
+		touches: event.touches,
+		type: event.type,
+    timeStamp:event.timeStamp,
+    isWxs:true
+	})
+}
+function onTouchEnd(event, ins){
+  ins.callMethod("onTouchEnd", {
+		changedTouches: event.changedTouches,
+		currentTarget: event.currentTarget,
+		touches: event.touches,
+		type: event.type,
+    timeStamp:event.timeStamp,
+    isWxs:true
+	})
+}
+
+
+function wxsTransformObserver(newValue, oldValue, ownerInstance, instance) {
+	instance.setStyle({
+		transform: newValue,
+    transition:!newValue ? 'all ease 200ms' :'none'
+	})
+}
+
+
+module.exports = {
+  onTouchStart:onTouchStart,
+  onTouchMove:onTouchMove,
+  onTouchEnd:onTouchEnd,
+  wxsTransformObserver:wxsTransformObserver,
+}
+

@@ -1,0 +1,241 @@
+var isPCFlag = -1
+var touchOptions = {
+  // 起始坐标
+  startPoint: {
+    x: 0,
+    y: 0,
+  },
+  startAngle: 0, // 开始角度
+  //上次移动坐标
+  lastPoint: {
+    x: 0,
+    y: 0,
+  },
+  offsetY: 0, // 下拉距离
+  inTouchend: 0, //结束下拉
+  scrollTop: 0,
+}
+
+function propObserver(wxsProp, oldValue, ownerIns, ins) {
+  if (wxsProp == undefined && wxsProp == null) return
+  var state = ownerIns.getState() || {}
+  state.currentIns = ins
+  if (wxsProp && typeof wxsProp == 'string' && wxsProp.indexOf('end') != -1) {
+    clearTrasnlateStyle(ownerIns)
+  } else {
+    touchOptions.scrollTop = parseFloat(wxsProp)
+  }
+}
+
+// 获取角度
+function getAngle(p1, p2) {
+  //获取坐标差的绝对值
+  var x = Math.abs(p1.x - p2.x)
+  var y = Math.abs(p1.y - p2.y)
+  //开平方
+  var z = Math.sqrt(x * x + y * y)
+  var angle = 0
+  if (z !== 0) {
+    //求计算两点的角度
+    angle = (Math.asin(y / z) / Math.PI) * 180
+  }
+  return angle
+}
+function getIns(ownerIns, event) {
+  var ins = ownerIns.getState().currentIns
+  if (!ins) {
+    ownerIns.callMethod('updateIns', event)
+  }
+  return ins
+}
+
+// 根据条件 退出下拉
+function disable(ins) {
+  var dataSet = ins.getDataset()
+  // 加载中
+  var loading = stringParseBoolean(dataSet.loading)
+  var isrefresh = stringParseBoolean(dataSet.isrefresh)
+
+  return loading || !isrefresh
+}
+function onTouchStart(e, ownerIns) {
+  var ins = getIns(ownerIns, 'event')
+  if (disable(ins)) return
+  touchOptions.offsetY = 0 // 下拉的偏移距离
+  touchOptions.startPoint = getPoint(e) // 记录起始坐标
+  touchOptions.startAngle = 0 // 初始角度
+  touchOptions.lastPoint = touchOptions.startPoint // 重置上次move的点
+  touchOptions.inTouchend = false // 标记不是touchend
+}
+
+function onTouchMove(e, ownerIns) {
+  var isPrevent = true
+  var ins = getIns(ownerIns, 'event')
+  // ownerIns.callMethod('updateIns')
+  if (disable(ins)) {
+    return isPrevent
+  }
+  //获取 attrs
+  var dataSet = ins.getDataset()
+  // 下拉角度
+  var refresherAngle = parseFloat(dataSet.refresherangle)
+  // 刷新距离的阀值
+  var refresherThreshold = parseFloat(dataSet.refresherthreshold)
+  // 下拉刷新超出阈值后继续下拉位移衰减的比例
+  var refresherRate = parseFloat(dataSet.refresherrate)
+  // 不启用下拉刷新直接退出
+  if (!dataSet.isrefresh) {
+    return isPrevent
+  }
+  var currentPoint = getPoint(e) // 当前坐标
+  var moveY = currentPoint.y - touchOptions.startPoint.y // 和起点比,移动的距离,大于0向下拉,小于0向上拉
+  // 下拉并且不是结束状态，有可能处于在刷新中，用户又开始下拉,  ios有个奇怪现象，scrollTop可能会成负数所以需要判断小于0的情况
+  if (moveY > 0 && !touchOptions.inTouchend && touchOptions.scrollTop <= 0) {
+    // 下拉的角度在配置的范围内
+    if (!touchOptions.startAngle) {
+      //更新角度
+      touchOptions.startAngle = getAngle(touchOptions.lastPoint, currentPoint)
+    }
+    // 如果小于配置的角度，不进入下一步
+    if (touchOptions.startAngle < refresherAngle) {
+      return isPrevent
+    }
+    var diff = currentPoint.y - touchOptions.lastPoint.y // 和上次比较,移动的距离 (大于0向下,小于0向上)
+    // 下拉刷新阈值 > 下拉距离
+    if (refresherThreshold > touchOptions.offsetY) {
+      touchOptions.offsetY += diff * refresherRate // 越往下,高度变化越小
+    } else {
+      if (diff > 0) {
+        // 往下拖
+        touchOptions.offsetY += diff * refresherRate // 越往下,高度变化越小
+      } else {
+        // 往回拖
+        touchOptions.offsetY += diff // 向上收回高度,则向上滑多少收多少高度
+      }
+    }
+  }
+  // 设置容器偏移量
+  setTrasnlateStyle(ownerIns, touchOptions.offsetY)
+  touchOptions.lastPoint = currentPoint // 记录本次移动的坐标
+  ownerIns.callMethod('onTouchMove', touchOptions.offsetY, currentPoint)
+  return isPrevent // 是否冒泡，仅小程序生效
+}
+
+function onTouchEnd(e, ownerIns) {
+  var ins = getIns(ownerIns, 'event')
+  if (disable(ins)) return
+  var state = ins.getState()
+  //获取 attrs
+  var dataSet = ins.getDataset()
+  // 刷新距离的阀值
+  var refresherThreshold = parseFloat(dataSet.refresherthreshold)
+  if (touchOptions.offsetY >= refresherThreshold) {
+    // 符合触发刷新的条件
+    touchOptions.offsetY = refresherThreshold // 更新下拉区域高度
+  } else {
+    // 不符合的话 则重置
+    touchOptions.offsetY = 0
+  }
+  setTrasnlateStyle(ownerIns, touchOptions.offsetY)
+  ownerIns.callMethod(
+    'onTouchEnd',
+    touchOptions.offsetY,
+    touchOptions.lastPoint
+  )
+}
+
+function getPoint(e) {
+  if (!e) {
+    return { x: 0, y: 0 }
+  }
+  if (e.touches && e.touches[0]) {
+    return { x: e.touches[0].pageX, y: e.touches[0].pageY }
+  } else if (e.changedTouches && e.changedTouches[0]) {
+    return { x: e.changedTouches[0].pageX, y: e.changedTouches[0].pageY }
+  } else {
+    return { x: e.clientX, y: e.clientY }
+  }
+}
+
+function setTrasnlateStyle(ins, Y) {
+  ins.requestAnimationFrame(function () {
+    ins.selectComponent('.v-list__mian').setStyle({
+      'will-change': 'transform',
+      transform: 'translateY(' + Y + 'px)',
+      transition: 'transform 300ms',
+    })
+  })
+}
+function clearTrasnlateStyle(ins) {
+  ins.requestAnimationFrame(function () {
+    ins.selectComponent('.v-list__mian').setStyle({
+      'will-change': '',
+      transform: '',
+      transition: 'transform 300ms',
+    })
+  })
+}
+
+function stringParseBoolean(value) {
+  value = (typeof value === 'string' ? JSON.parse(value) : value) || false
+  return value == true || value == 'true'
+}
+
+// #ifdef H5
+function isPC() {
+  if (isPCFlag != -1) return isPCFlag
+  var userAgentInfo = navigator.userAgent
+  var Agents = [
+    'Android',
+    'iPhone',
+    'SymbianOS',
+    'Windows Phone',
+    'iPad',
+    'iPod',
+  ]
+  var flag = true
+  for (var i = 0; i < Agents.length; i++) {
+    if (userAgentInfo.indexOf(Agents[i]) > 0) {
+      flag = false
+      break
+    }
+  }
+  isPCFlag = flag
+  return isPCFlag
+}
+
+var movable = false
+
+function onMousedown(e, ins) {
+  if (!isPC()) return
+  onTouchStart(e, ins)
+  movable = true
+}
+
+function onMousemove(e, ins) {
+  if (!isPC()) return
+  if (!movable) return
+  onTouchMove(e, ins)
+}
+
+function onMouseup(e, ins) {
+  if (!isPC()) return
+  onTouchEnd(e, ins)
+  movable = false
+}
+
+function onMouseleave(e, ins) {
+  if (!isPC()) return
+  movable = false
+}
+// #endif
+module.exports = {
+  onTouchStart: onTouchStart,
+  onTouchMove: onTouchMove,
+  onTouchEnd: onTouchEnd,
+  onMousedown: onMousedown,
+  onMousemove: onMousemove,
+  onMouseup: onMouseup,
+  onMouseleave: onMouseleave,
+  propObserver: propObserver,
+}

@@ -1,0 +1,6 @@
+/node_modules
+/dist/
+/varUiDocs/docs/.vitepress/
+/varUiDocs/node_modules/
+/node_modules/
+
