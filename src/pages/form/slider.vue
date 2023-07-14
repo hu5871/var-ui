@@ -13,6 +13,8 @@
       <v-slider  :margin="[26, 0]" direction="col" :width="6" :height="200" popoverPostion="r" :showPopover="true" v-model="value3"></v-slider>
       <v-text label='垂直方向 区间'></v-text>
       <v-slider  :margin="[26, 0]" :range="true" direction="col" :width="6" :height="300" popoverPostion="r" :showPopover="true" v-model="value2"></v-slider>
+      <v-text label="禁用状态"></v-text>
+      <v-slider disabled :margin="[26, 0]" v-model="value7"></v-slider>
     </v-card>
 
     <v-card >
@@ -38,6 +40,7 @@ export default {
       value4: 0,
       value5: 0,
       value6: 0,
+      value7: 7,
     }
   },
   watch: {
