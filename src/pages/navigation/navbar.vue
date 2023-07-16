@@ -8,9 +8,7 @@
 </template>
 
 <script>
-import vNavbar from '../../var-ui/components/v-navbar/v-navbar.vue'
 export default {
-  components: { vNavbar },
    data(){
     return {
     }

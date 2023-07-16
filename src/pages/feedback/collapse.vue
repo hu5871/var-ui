@@ -24,10 +24,8 @@
 </template>
 
 <script>
-import VCard from '../../var-ui/components/v-card/v-card.vue'
 export default {
   components: {
-    VCard
   },
   data () {
     return {

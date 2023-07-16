@@ -13,10 +13,7 @@
 </template>
 
 <script>
-import VIndexedItem from '../../var-ui/components/v-indexed-item/v-indexed-item.vue';
-import vIndexed from '../../var-ui/components/v-indexed/v-indexed.vue'
 export default {
-  components: { vIndexed, VIndexedItem },
   created () {
     // 生成包含小写字母a-z的数组
     var alphabetArray = [];

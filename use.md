@@ -2,6 +2,10 @@
 
 [文档地址](https://doc.varui.org.cn)
 
+### 体验
+
+[h5体验地址](https://www.varui.org.cn)
+
 ### 使用方式
 
 需要在`main.js`引入

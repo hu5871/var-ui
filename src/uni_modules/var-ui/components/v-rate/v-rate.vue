@@ -34,8 +34,7 @@ export default {
 import { createNamespace } from "../../lib/utils/create";
 import { rateProps } from "./v-rate";
 import vIcon from "../v-icon/v-icon.vue";
-import { computed, getCurrentInstance, onMounted, ref, watch } from "vue";
-import { nextTick } from "../v-swiper/share/utils";
+import { computed, getCurrentInstance, nextTick, onMounted, ref, watch } from "vue";
 import { customPOrM, _defineProps } from "../../lib/share/customProps";
 
 const proxy = getCurrentInstance()?.proxy || null

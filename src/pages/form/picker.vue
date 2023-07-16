@@ -13,15 +13,10 @@
 </template>
 
 <script>
-import vRoot from '../../var-ui/components/v-root/v-root.vue'
-import vCard from '../../var-ui/components/v-card/v-card.vue'
-import vCalendar from '../../var-ui/components/v-calendar/v-calendar.vue'
+
 
 export default {
   components: {
-    vCalendar,
-    vRoot,
-    vCard
   },
   data () {
     return {

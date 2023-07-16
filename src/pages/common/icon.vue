@@ -53,10 +53,8 @@
 
 <script>
 import iconJson from './iconJson.json'
-import vButton from '../../var-ui/components/v-button/v-button.vue'
 export default {
   components: {
-    vButton
   },
   data () {
     return {

@@ -48,10 +48,8 @@
 </template>
 
 <script>
-import VMessage from '../../var-ui/components/v-message/v-message.vue'
 export default {
   components: {
-    VMessage
   },
   data () {
     return {

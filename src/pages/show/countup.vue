@@ -31,9 +31,7 @@
 </template>
 
 <script>
-import vCountup from '../../var-ui/components/v-countup/v-countup.vue'
 export default {
-  components: { vCountup },
    data(){
     return {
     }

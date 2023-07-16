@@ -18,9 +18,7 @@
 </template>
 
 <script>
-import vAvatar from '../../var-ui/components/v-avatar/v-avatar.vue'
 export default {
-  components: { vAvatar },
 
 }
 </script>

@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import VTransition from '../../var-ui/components/v-transition/v-transition.vue'
 
 // fade 淡入
 // fade-up 上滑淡入
@@ -34,7 +33,6 @@ import VTransition from '../../var-ui/components/v-transition/v-transition.vue'
 // zoom-out 缩放
 export default {
   components: {
-    VTransition
   },
   data () {
     return {

@@ -2,19 +2,18 @@
 <template>
 
   <!-- url="https://mockapi.eolink.com/tNYKNA7ac71aa90bcbe83c5815871a5b419601e96a5524d/upload" -->
-  <myUpload v-model="uploadList" :url="url" @fail="handlefail" @success="handleSuccess"   @oversize="handleOversize" @remove="uploadRemove" @beforeUpload="uploadBefore"
+  <vUpload v-model="uploadList" :url="url" @fail="handlefail" @success="handleSuccess"   @oversize="handleOversize" @remove="uploadRemove" @beforeUpload="uploadBefore"
     @afterUpload="uploadAfter">
-    </myUpload>
-    <myUpload v-model="uploadVideoList" :width="500" :height="399" fileType="video" :url="url" @fail="handlefail" @success="handleSuccess"   @oversize="handleOversize" @remove="uploadRemove" @beforeUpload="uploadBefore"
+    </vUpload>
+    <vUpload v-model="uploadVideoList" :width="500" :height="399" fileType="video" :url="url" @fail="handlefail" @success="handleSuccess"   @oversize="handleOversize" @remove="uploadRemove" @beforeUpload="uploadBefore"
     @afterUpload="uploadAfter">
       <template v-slot:upload>
         <v-button  type="primary">上传</v-button>
       </template>
-    </myUpload>
+    </vUpload>
 </template>
 
 <script setup lang="ts">
-import myUpload from '../../var-ui/components/v-upload/v-upload.vue'
 import { ref } from "vue";
 
 const uploadList = ref(['https://img.yzcdn.cn/vant/leaf.jpg'])

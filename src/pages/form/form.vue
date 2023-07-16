@@ -64,10 +64,8 @@
 </template>
 
 <script>
-import vForm from '../../var-ui/components/v-form/v-form.vue'
 import cityJson from './city.json'
 export default {
-  components: { vForm },
   data () {
     return {
       cityShow: false,

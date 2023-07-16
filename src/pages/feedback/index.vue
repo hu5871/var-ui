@@ -7,14 +7,10 @@
 </template>
 
 <script>
-import vRoot from '../../var-ui/components/v-root/v-root.vue'
-import vCard from '../../var-ui/components/v-card/v-card.vue'
-import vCell from '../../var-ui/components/v-cell/v-cell.vue'
+
 export default {
   components: {
-    vCell,
-    vCard,
-    vRoot
+  
   },
   data () {
     return {

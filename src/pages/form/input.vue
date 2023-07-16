@@ -51,20 +51,9 @@
 </template>
 
 <script>
-import vRoot from '../../var-ui/components/v-root/v-root.vue'
-import vCard from '../../var-ui/components/v-card/v-card.vue'
-import vInput from '../../var-ui/components/v-input/v-input.vue'
-import vText from '../../var-ui/components/v-text/v-text.vue'
-import vIcon from '../../var-ui/components/v-icon/v-icon.vue'
-import vButton from '../../var-ui/components/v-button/v-button.vue'
+
 export default {
   components: {
-    vCard,
-    vInput,
-    vText,
-    vRoot,
-    vIcon,
-    vButton
   },
   data () {
     return {
