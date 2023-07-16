@@ -77,6 +77,10 @@ export const sliderProps = {
   step:{
     type:Number,
     default:1
+  },
+  disabled:{
+    type:Boolean,
+    default:false
   }
 } as const
 
