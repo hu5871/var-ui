@@ -1,5 +1,6 @@
 <template>
-  <view :class="[bem.b(), `flex relative justify-center items-center`, direction === 'row' ? 'flex-row' : 'flex-col',disabled?'cursor-not-allowed	':'']"
+  <view
+    :class="[bem.b(), `flex relative justify-center items-center`, direction === 'row' ? 'flex-row' : 'flex-col', disabled ? 'cursor-not-allowed	' : '']"
     :style="containerStyle">
     <view ref="line" :class="[fullLineClass, 'relative']" :style="lineStyle">
       <view ref="activeLine" :class="[activeLineClass, 'absolute', direction === 'row' ? 'left-0' : 'top-0']"
@@ -75,7 +76,7 @@ const beforeButtonClass = bem.be('before', 'button')
 const afterButtonClass = bem.be('after', 'button')
 const emits = defineEmits(['update:modelValue'])
 const props = defineProps({ ..._defineProps, ...sliderProps })
-console.log('props',props.disabled);
+console.log('props', props.disabled);
 
 // 是否时范围选择
 const isRang = computed(() => {
@@ -151,7 +152,7 @@ const activeLineStyle = computed(() => {
     } : {
       ...(isRang.value ? { 'top': `${Math.min(...value.value)}%`, height: `${getGangWidth.value}%`, width: lineStyle.value.width } : { width: lineStyle.value.width, height: `${value.value[0]}%` })
     }),
-    opacity:props.disabled ? 0.6 : 1,
+    opacity: props.disabled ? 0.6 : 1,
     backgroundColor: props.activeColor,
   }
 })
@@ -274,7 +275,7 @@ if (navigator.userAgent.indexOf('Mobile') === -1) {
 // #endif
 
 async function handleTouchstart(e: MouseEvent | TouchEvent) {
-  if(props.disabled){
+  if (props.disabled) {
     return
   }
 
@@ -321,7 +322,7 @@ const min = computed(() => props.min)
 const max = computed(() => props.max)
 
 async function handleTouchmove(e: MouseEvent | TouchEvent) {
-  if(props.disabled) return
+  if (props.disabled) return
   if (!isDrag.value) return
   const index = buttonIndex.value
   const { clientX, clientY, } = getClientXY(e)
