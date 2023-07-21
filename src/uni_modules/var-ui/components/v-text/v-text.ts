@@ -9,6 +9,10 @@ export const textProps = {
     required: false,
     default: 'auto'
   },
+  weight:{
+    type: [Number, String] as PropType<number | string>,
+    default: 'normal'
+  },
   fontSize:{
     type:Number,
     default: 28

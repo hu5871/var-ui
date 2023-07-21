@@ -1,10 +1,7 @@
-## 1.0.2（2023-07-22）
-新增 v-subsection 分段器组件 
-v-text 文本组件新增 weight加粗字段
 ## 1.0.1（2023-07-21）
-新增watermark 水印组件
+- 新增watermark 水印组件
+- slider 滑块组件 新增disabled禁用状态
 
-slider 滑块组件 新增disabled禁用状态
 ## 1.0.0（2023-07-13）
 组件列表开发已完成
 

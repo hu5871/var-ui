@@ -340,6 +340,12 @@ export default {
           page: '/pages/navigation/sidebar',
           title: 'sidebar 侧边导航'
         },
+        {
+          icon: 'icon-link',
+          iconColor: 'white',
+          page: '/pages/navigation/subsection',
+          title: 'subsection 分段器'
+        },
       ]
       //   showCustomModel:false,
       //   customMap:{

@@ -140,7 +140,7 @@ export default {
       list1: [],
       list: [],
       list2: [],
-      longText: '灰太狼来了狗熊岭，教会了光头强制造武器',
+      longText: '灰太狼来了狗熊岭，教会了光头强抓杰瑞',
       shortText: '免费且开源'
     }
   },

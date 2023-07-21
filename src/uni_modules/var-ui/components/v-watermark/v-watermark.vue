@@ -110,8 +110,8 @@ async function repeatTextCommonLogic() {
   let { ctx, canvas }: any = await getMpCanvasIns(dpr)
   // #endif
   const { unit, fontSize, color, opacity, fontStyle, fontWeight, spacing, lineHeight, fontVariant, fontFamily, text, rotate } = props
-  const size = unit == "rpx" ? uni.upx2px(fontSize) : fontSize
-  const height = lineHeight
+  const size = (unit == "rpx" ? uni.upx2px(fontSize) : fontSize)*dpr
+  const height = lineHeight*dpr
   const finaHeight = props.unit == "rpx" ? uni.upx2px(height) : height
   // ctx.setFontSize(size)
   ctx.font = `${fontStyle} ${fontWeight} ${size}px/${finaHeight}px ${''} ${fontVariant} ${fontFamily}`;

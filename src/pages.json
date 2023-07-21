@@ -361,6 +361,13 @@
             "navigationBarTitleText": "侧边导航",
             "enablePullDownRefresh": false
           }
+        },
+        {
+          "path": "subsection",
+          "style": {
+            "navigationBarTitleText": "分段器",
+            "enablePullDownRefresh": false
+          }
         }
       ]
     }

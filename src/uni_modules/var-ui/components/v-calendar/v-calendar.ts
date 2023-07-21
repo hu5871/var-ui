@@ -106,6 +106,7 @@ export const calendarProps = {
     type:Object as PropType<Record<string,any>>,
     default:()=>({})
   },
+
 } as const
 
 

@@ -58,7 +58,7 @@
     </v-popup>
   </template>
   <template v-else>
-    <view :class="[bem.b(), 'w-full', ]">
+    <view :class="[bem.b(), 'w-full',]">
       <view :class="[bem.be('calendar', 'head'), 'flex', 'w-full']">
         <v-card width="100%" :margin="[0]" :padding="[16, 0]">
           <view class="flex w-full">
@@ -77,8 +77,8 @@
         </v-card>
       </view>
       <view class="w-full flex py-10">
-          <view class="flex-1 flex justify-center  items-center" v-for="week in weekList" :key="week">{{ week }}</view>
-        </view>
+        <view class="flex-1 flex justify-center  items-center" v-for="week in weekList" :key="week">{{ week }}</view>
+      </view>
       <view v-if="currentWeekTwoArrayList && currentWeekTwoArrayList.length"
         :class="[bem.be('calendar', 'body'), 'flex', 'flex-wrap']">
         <view class='w-full flex' :style="{ height: '49px' }" v-for="(weekItem, i) in currentWeekTwoArrayList">
@@ -430,7 +430,7 @@ async function single(item: WeekTwoArrayList) {
 async function multiple(item: WeekTwoArrayList) {
   if (selectValue.value.some(date => item.ymd === date)) {
     const index = selectValue.value.findIndex(date => item.ymd === date)
-    multipleList.value=multipleList.value.filter(t=> t.ymd !== item.ymd)
+    multipleList.value = multipleList.value.filter(t => t.ymd !== item.ymd)
     selectValue.value.splice(index, 1)
   } else {
     multipleList.value.push(item)
@@ -446,7 +446,7 @@ async function multiple(item: WeekTwoArrayList) {
       // 按照日排序
       return a.day - b.day;
     })
-    selectValue.value=multipleList.value.map(t=> t.ymd)
+    selectValue.value = multipleList.value.map(t => t.ymd)
   }
 }
 async function range(item: WeekTwoArrayList) {

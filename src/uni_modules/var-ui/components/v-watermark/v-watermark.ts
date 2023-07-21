@@ -31,13 +31,12 @@ export const watermarkProps = {
   },
   fontVariant: {
     type: [String] as PropType<'normal' | 'small-caps'>,
-    default: ''
+    default: 'normal'
   },
   fontWeight: {
     type: [String, Number] as PropType<'normal' | 'bold' | 'bolder' | 'lighter' | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900>,
     default: 400
   },
-
   lineHeight: {
     type: Number,
     default: 14,

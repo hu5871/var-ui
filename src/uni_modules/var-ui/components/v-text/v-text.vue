@@ -28,6 +28,7 @@ const props = defineProps({ ..._defineProps, ...textProps })
 const _style = computed(() => {
   return {
     color: props.color,
+    fontWeight: props.weight,
     ...props._style
   }
 })
