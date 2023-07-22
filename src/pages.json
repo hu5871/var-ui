@@ -134,7 +134,7 @@
           "style": {
             "navigationBarTitleText": "卡片容器",
             "enablePullDownRefresh": false,
-            "background":"#e96040"
+            "background": "#e96040"
           }
         },
         {
@@ -251,9 +251,9 @@
             "navigationBarTitleText": "分割线",
             "enablePullDownRefresh": false,
             "disableScroll": true,
-            "app-plus": {  
-              "bounce": "none"  
-              }  
+            "app-plus": {
+              "bounce": "none"
+            }
           }
         },
         {
@@ -284,7 +284,7 @@
             "navigationBarTitleText": "头像组件",
             "enablePullDownRefresh": false
           }
-        } ,
+        },
         {
           "path": "cell",
           "style": {
@@ -334,7 +334,13 @@
             "enablePullDownRefresh": false
           }
         },
-        
+        {
+          "path": "progress",
+          "style": {
+            "navigationBarTitleText": "进度条",
+            "enablePullDownRefresh": false
+          }
+        }
       ]
     },
     {
@@ -351,7 +357,7 @@
           "path": "navbar",
           "style": {
             "navigationBarTitleText": "",
-						"navigationStyle": "custom",
+            "navigationStyle": "custom",
             "enablePullDownRefresh": false
           }
         },
@@ -364,7 +370,6 @@
         }
       ]
     }
-    
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",

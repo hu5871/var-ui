@@ -1,67 +1,66 @@
-import { ExtractDefaultPropTypes, PropType } from 'vue';
+import { ExtractDefaultPropTypes, PropType } from "vue";
 
 export const lineProps = {
   height: {
-    type: [Number,String] as PropType<number|string>,
-    default: 2
+    type: [Number, String] as PropType<number | string>,
+    default: 2,
   },
   unit: {
     type: String,
-    default: 'rpx'
+    default: "rpx",
   },
   border: {
     type: Number,
-    default: 2
+    default: 2,
   },
   align: {
-    type: String as PropType<'start' | 'end' | 'center'>,
-    default: 'center'
+    type: String as PropType<"start" | "end" | "center">,
+    default: "center",
   },
   lienColor: {
     type: String,
-    default: '#dfe1e5'
+    default: "#dfe1e5",
   },
   margin: {
     type: Array as PropType<number[]>,
-    default: () => [0, 16]
+    default: () => [0, 16],
   },
-  width:{
-    type: [Number,String] as PropType<number|string>,
-    default: 'auto'
+  width: {
+    type: [Number, String] as PropType<number | string>,
+    default: "auto",
   },
-  showLeftLine:{
+  showLeftLine: {
     type: Boolean,
-    default: true
+    default: true,
   },
-  showRightLine:{
+  showRightLine: {
     type: Boolean,
-    default: true
+    default: true,
   },
-  leftLineColor:{
+  leftLineColor: {
     type: String,
-    default: ''
+    default: "",
   },
-  rightLineColor:{
+  rightLineColor: {
     type: String,
-    default: ''
+    default: "",
   },
   vertical: {
     type: Boolean,
-    default: false
+    default: false,
   },
-  color:{
+  color: {
     type: String,
-    default: '#6b6b70'
+    default: "#6b6b70",
   },
   fontSize: {
     type: Number,
-    default: 28
+    default: 28,
   },
   label: {
     type: String,
-    default: ''
-  }
-} as const
+    default: "",
+  },
+} as const;
 
-
-export type LineProps = ExtractDefaultPropTypes<typeof lineProps>
+export type LineProps = ExtractDefaultPropTypes<typeof lineProps>;
