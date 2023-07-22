@@ -8,7 +8,9 @@
     </view>
     <view
       v-if="showPivot"
-      style="margin-left: 12rpx"
+      :style="{
+        marginLeft: 12 + unit,
+      }"
       :class="[b() + '__percent']"
       >{{ percent }}%</view
     >
@@ -40,9 +42,9 @@ const percent = computed<number>(() =>
 const currentProgressStyle = computed(() => {
   return {
     background: props.activeBgColor,
-    height: props.height + "rpx",
+    height: customWorH(props.height, props.unit),
     width: percent.value + "%",
-    borderRadius: props.height + "rpx",
+    borderRadius: customWorH(props.height, props.unit),
   };
 });
 </script>
