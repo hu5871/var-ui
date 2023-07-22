@@ -26,6 +26,10 @@ export const progressProps = {
     type: Boolean,
     default: true,
   },
+  unit: {
+    type: String,
+    default: "rpx",
+  },
 } as const;
 
 export type ProgressPropsType = ExtractDefaultPropTypes<typeof progressProps>;

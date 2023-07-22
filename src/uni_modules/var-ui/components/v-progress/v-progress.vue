@@ -19,6 +19,7 @@
 import { computed } from "vue";
 import { createNamespace } from "../../lib/utils/create";
 import { progressProps } from "./v-progress";
+import { customWorH } from "../../lib/share/customProps";
 
 const b = createNamespace("progress").b;
 
@@ -26,9 +27,9 @@ const props = defineProps(progressProps);
 
 const progressStyle = computed(() => {
   return {
-    height: props.height + "rpx",
-    background: props.bgColor,
-    borderRadius: props.height + "rpx",
+    height: customWorH(props.height, props.unit),
+    background: customWorH(props.bgColor, props.unit),
+    borderRadius: customWorH(props.height, props.unit),
   };
 });
 

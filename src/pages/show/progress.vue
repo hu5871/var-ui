@@ -32,10 +32,10 @@ import { ref } from "vue";
 const percent = ref(10);
 
 const add = () => {
-  percent.value += 10;
+  percent.value = percent.value + 10 >= 100 ? 100 : percent.value + 10;
 };
 
 const decrease = () => {
-  percent.value -= 10;
+  percent.value = percent.value - 10 <= 0 ? 0 : percent.value - 10;
 };
 </script>
