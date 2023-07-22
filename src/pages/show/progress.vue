@@ -2,9 +2,7 @@
   <v-root bgColor="rgb(245, 245, 245)">
     <v-card :height="300">
       <view>普通使用</view>
-      <view style="width: 400px">
-        <v-progress :percent="percent" />
-      </view>
+      <v-progress :percent="percent" />
 
       <view style="display: flex; aligin-items: center; margin-top: 12px">
         <v-button @click="add" type="primary">增加</v-button>
@@ -16,9 +14,7 @@
 
     <v-card :height="300">
       <view>自定义颜色</view>
-      <view style="width: 400px">
-        <v-progress activeBgColor="#6a36d5" :percent="percent" />
-      </view>
+      <v-progress activeBgColor="#6a36d5" :percent="percent" />
 
       <view style="display: flex; aligin-items: center; margin-top: 12px">
         <v-button @click="add" type="primary">增加</v-button>

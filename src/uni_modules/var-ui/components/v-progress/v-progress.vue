@@ -1,6 +1,6 @@
 <template>
   <view class="flex items-center">
-    <view :class="[b(), 'overflow-hidden', 'w-full']" :style="progressStyle">
+    <view :class="[b(), 'overflow-hidden', 'flex-1']" :style="progressStyle">
       <view
         :class="[b() + '__active__line']"
         :style="{ transition: 'width 0.4s ease', ...currentProgressStyle }"
