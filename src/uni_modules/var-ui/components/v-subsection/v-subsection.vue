@@ -9,6 +9,13 @@
     <view :class="[bem.em('block', 'view')]" class="absolute " :style="[bgBlockStyle]"></view>
   </view>
 </template>
+<script lang="ts">
+export default {
+  options: {
+    virtualHost: true
+  }
+}
+</script>
 
 <script lang="ts" setup>
 import vText from '../v-text/v-text.vue'

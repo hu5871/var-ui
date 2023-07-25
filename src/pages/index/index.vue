@@ -3,33 +3,13 @@
     <v-card bgColor="#f4f4f4" :height="200">
       <view class="flex flex-1">
         <view class="flex-1 flex-col ml-20 flex justify-center">
-          <v-transition
-            :width="300"
-            :height="100"
-            v-model:show="nameShow"
-            mode="slide-left"
-          >
+          <v-transition :width="300" :height="100" v-model:show="nameShow" mode="slide-left">
             <v-card :margin="[0]" transparent :width="300">
-              <v-image
-                mode="scaleToFill"
-                :src="logo"
-                :width="200"
-                :height="70"
-              ></v-image>
+              <v-image mode="scaleToFill" :src="logo" :width="200" :height="70"></v-image>
             </v-card>
           </v-transition>
-          <v-transition
-            width="100%"
-            :height="100"
-            v-model:show="nameShow"
-            mode="slide-right"
-          >
-            <v-card
-              :margin="[0]"
-              transparent
-              width="100%"
-              _contentClass="justify-center"
-            >
+          <v-transition width="100%" :height="100" v-model:show="nameShow" mode="slide-right">
+            <v-card :margin="[0]" transparent width="100%" _contentClass="justify-center">
               <v-text label="Uniapp 多端兼容的 Vue3 TypeScript 组件库"></v-text>
             </v-card>
           </v-transition>
@@ -41,17 +21,8 @@
         <v-text label="通用组件"></v-text>
       </view>
       <view class="flex flex-wrap justify-around">
-        <v-card
-          @click="toPage(item.page)"
-          :margin="[16, 0]"
-          bgColor="#74c3fa"
-          width="49%"
-          :height="120"
-          isRow
-          _contentClass="justify-between items-center"
-          v-for="item in common"
-          :key="item.title"
-        >
+        <v-card @click="toPage(item.page)" :margin="[16, 0]" bgColor="#74c3fa" width="49%" :height="120" isRow
+          _contentClass="justify-between items-center" v-for="item in common" :key="item.title">
           <v-icon :color="item.iconColor" :name="item.icon"></v-icon>
           <v-text color="white" :label="item.title"></v-text>
         </v-card>
@@ -62,17 +33,8 @@
         <v-text label="展示组件"></v-text>
       </view>
       <view class="flex flex-wrap justify-around">
-        <v-card
-          @click="toPage(item.page)"
-          :margin="[16, 0]"
-          bgColor="#5dbe8a"
-          width="49%"
-          :height="120"
-          isRow
-          _contentClass="justify-between items-center"
-          v-for="item in show"
-          :key="item.title"
-        >
+        <v-card @click="toPage(item.page)" :margin="[16, 0]" bgColor="#5dbe8a" width="49%" :height="120" isRow
+          _contentClass="justify-between items-center" v-for="item in show" :key="item.title">
           <v-icon :color="item.iconColor" :name="item.icon"></v-icon>
           <v-text color="white" :label="item.title"></v-text>
         </v-card>
@@ -83,17 +45,8 @@
         <v-text label="反馈组件"></v-text>
       </view>
       <view class="flex flex-wrap justify-around">
-        <v-card
-          @click="toPage(item.page)"
-          :margin="[16, 0]"
-          bgColor="#fed71a"
-          width="49%"
-          :height="120"
-          isRow
-          _contentClass="justify-between items-center"
-          v-for="item in feedback"
-          :key="item.title"
-        >
+        <v-card @click="toPage(item.page)" :margin="[16, 0]" bgColor="#fed71a" width="49%" :height="120" isRow
+          _contentClass="justify-between items-center" v-for="item in feedback" :key="item.title">
           <v-icon :color="item.iconColor" :name="item.icon"></v-icon>
           <v-text color="white" :label="item.title"></v-text>
         </v-card>
@@ -104,17 +57,8 @@
         <v-text label="表单组件"></v-text>
       </view>
       <view class="flex flex-wrap justify-around">
-        <v-card
-          @click="toPage(item.page)"
-          :margin="[16, 0]"
-          bgColor="#ef632b"
-          width="49%"
-          :height="120"
-          isRow
-          _contentClass="justify-between items-center"
-          v-for="item in form"
-          :key="item.title"
-        >
+        <v-card @click="toPage(item.page)" :margin="[16, 0]" bgColor="#ef632b" width="49%" :height="120" isRow
+          _contentClass="justify-between items-center" v-for="item in form" :key="item.title">
           <v-icon :color="item.iconColor" :name="item.icon"></v-icon>
           <v-text color="white" :label="item.title"></v-text>
         </v-card>
@@ -125,17 +69,8 @@
         <v-text label="导航组件"></v-text>
       </view>
       <view class="flex flex-wrap justify-around">
-        <v-card
-          @click="toPage(item.page)"
-          :margin="[16, 0]"
-          bgColor="#ba2f7b"
-          width="49%"
-          :height="120"
-          isRow
-          _contentClass="justify-between items-center"
-          v-for="item in navigation"
-          :key="item.title"
-        >
+        <v-card @click="toPage(item.page)" :margin="[16, 0]" bgColor="#ba2f7b" width="49%" :height="120" isRow
+          _contentClass="justify-between items-center" v-for="item in navigation" :key="item.title">
           <v-icon :color="item.iconColor" :name="item.icon"></v-icon>
           <v-text color="white" :label="item.title"></v-text>
         </v-card>
@@ -148,7 +83,7 @@
 import logo from "../../static/var-logo.png";
 export default {
   components: {},
-  data() {
+  data () {
     return {
       logo,
       nameShow: true,
@@ -282,6 +217,18 @@ export default {
           iconColor: "white",
           page: "/pages/feedback/message",
           title: "message提示",
+        },
+        {
+          icon: 'icon-chatbox',
+          iconColor: 'white',
+          page: '/pages/feedback/swipeAction',
+          title: '滑动单元格'
+        },
+        {
+          icon: 'icon-checkbox',
+          iconColor: 'white',
+          page: '/pages/feedback/message',
+          title: 'message提示'
         },
         {
           icon: "icon-volume-medium-outline",
@@ -484,9 +431,9 @@ export default {
     };
   },
 
-  created() {},
+  created () { },
   methods: {
-    toPage(page) {
+    toPage (page) {
       uni.navigateTo({
         url: page,
       });

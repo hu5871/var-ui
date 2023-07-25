@@ -185,6 +185,13 @@
           }
         },
         {
+          "path": "swipeAction",
+          "style": {
+            "navigationBarTitleText": "滑动单元格",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
           "path": "message",
           "style": {
             "navigationBarTitleText": "message提示",
