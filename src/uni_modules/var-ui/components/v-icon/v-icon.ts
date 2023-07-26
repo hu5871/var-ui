@@ -2,7 +2,7 @@ import { ExtractDefaultPropTypes, PropType } from 'vue';
 export const iconProps = {
   color: {
     type:String,
-    default:''
+    default:'#919398'
   },
   size:{
     type: [Number, String] as PropType<number | string>,

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.44d9576a.js";const A=JSON.parse('{"title":"是否是Promise","description":"","frontmatter":{},"headers":[],"relativePath":"api/isPromise.md","lastUpdated":1689232209000}'),t={name:"api/isPromise.md"},o=l("",5),e=[o];function p(c,i,r,y,D,C){return a(),n("div",null,e)}const d=s(t,[["render",p]]);export{A as __pageData,d as default};

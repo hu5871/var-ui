@@ -1,3 +1,6 @@
+## 1.0.3（2023-07-25）
+新增 progress  进度条组件
+新增 swipe-action 滑动单元格组件
 ## 1.0.2（2023-07-22）
 新增 v-subsection 分段器组件 
 v-text 文本组件新增 weight加粗字段

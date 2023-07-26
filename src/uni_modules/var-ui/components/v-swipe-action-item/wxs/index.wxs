@@ -1,0 +1,202 @@
+var isPCFlag = -1
+
+function observeProp(newVal, oldValue, owIns, ins) {
+  var state = ins.getState()
+  state.status = newVal
+  if (!newVal) {
+    clearTrasnlateStyle(owIns)
+  }
+}
+
+function observeConfig(newVal, oldValue, owIns, ins) {
+  var state = ins.getState()
+  if (!newVal) return
+  state.disabled = newVal.disabled
+  state.duration = newVal.duration
+  state.threshold = newVal.threshold
+  state.nodeInfo = newVal.nodeInfo
+  if (state.nodeInfo) {
+    state.menuWidth = (state.nodeInfo && state.nodeInfo.width) || 0
+  }
+}
+
+function getPoint(e) {
+  if (!e) {
+    return { x: 0, y: 0 }
+  }
+  if (e.touches && e.touches[0]) {
+    return { x: e.touches[0].pageX, y: e.touches[0].pageY }
+  } else if (e.changedTouches && e.changedTouches[0]) {
+    return { x: e.changedTouches[0].pageX, y: e.changedTouches[0].pageY }
+  } else {
+    return { x: e.clientX, y: e.clientY }
+  }
+}
+
+function onTouchstart(event, ins) {
+  var instance = event.instance
+  var state = instance.getState()
+  var touches = event.touches
+  if (touches && touches.length > 1) return
+  var point = getPoint(event)
+  // 标识当前为滑动中状态
+  state.moving = true
+  // 记录触摸开始点的坐标值
+  state.startX = point.x
+  state.startY = point.y
+  ins.callMethod('close')
+}
+function onTouchmove(event, ins) {
+  var instance = event.instance
+  var state = instance.getState()
+  if (state.disabled || !state.moving) return
+  var point = getPoint(event)
+  var pageX = point.x
+  var pageY = point.y
+  var moveX = pageX - state.startX
+  var moveY = pageY - state.startY
+  var menuWidth = state.menuWidth
+  // 移动的X轴距离大于Y轴距离，也即终点与起点位置连线，与X轴夹角小于45度时，禁止页面滚动
+  if (Math.abs(moveX) > Math.abs(moveY) || Math.abs(moveX) > state.threshold) {
+		event.preventDefault && event.preventDefault()
+		event.stopPropagation && event.stopPropagation()
+	}
+  // 如果移动的X轴距离小于Y轴距离，也即终点位置与起点位置连线，与Y轴夹角小于45度时，认为是页面上下滑动，而不是左右滑动单元格
+	if (Math.abs(moveX) < Math.abs(moveY)) return
+  // 负数为左拉且为关闭状态
+  if (state.status == 0) {
+    if (moveX > 0) moveX = 0
+    if (Math.abs(moveX) > menuWidth) moveX = -menuWidth
+    setTrasnlateStyle(ins, moveX)
+  } else {
+    if (moveX < 0) moveX = 0
+    if (moveX > menuWidth) moveX = menuWidth
+    setTrasnlateStyle(ins, -menuWidth + moveX)
+  }
+}
+function onTouchend(event, ins) {
+  var instance = event.instance
+  // wxs内的局部变量快照
+  var state = instance.getState()
+  if (!state.moving || state.disabled) return
+  var touches = event.changedTouches ? event.changedTouches[0] : {}
+  var pageX = touches.pageX
+  var pageY = touches.pageY
+  var moveX = pageX - state.startX
+  var duration = state.duration && getDuration(state.duration)
+  if (state.status === 1) {
+    // 已经是开启状态继续滑动不做处理
+    if (Math.floor(moveX) === 0 || Math.ceil(moveX) === 0) {
+      setStatus(ins, 0)
+      return clearTrasnlateStyle(ins)
+    }
+    if (moveX < 0) return
+    if (Math.abs(moveX) < state.threshold) {
+      open(ins, -state.menuWidth, duration)
+    } else {
+      setStatus(ins, 0)
+      return clearTrasnlateStyle(ins)
+    }
+  } else {
+    if (moveX > 0) return
+    if (Math.abs(moveX) < state.threshold) {
+      setStatus(ins, 0)
+      clearTrasnlateStyle(ins)
+    } else {
+      open(ins, -state.menuWidth, duration)
+    }
+  }
+}
+
+function open(ins, x, duration) {
+  setTrasnlateStyle(ins, x, duration)
+  ins.callMethod('setStatus', { value: 1 })
+}
+
+function setTrasnlateStyle(ins, x, duration) {
+  ins.requestAnimationFrame(function () {
+    ins.selectComponent('.v-swipe-action-item__touch--view').setStyle({
+      'will-change': 'transform',
+      transform: 'translateX(' + x + 'px)',
+      transition: !duration ? 'none' : 'transform ' + duration,
+    })
+  })
+}
+function clearTrasnlateStyle(ins) {
+  ins.requestAnimationFrame(function () {
+    ins.selectComponent('.v-swipe-action-item__touch--view').setStyle({
+      'will-change': '',
+      transform: 'translateX(0px)',
+      transition: 'transform 300ms',
+    })
+  })
+}
+function getDuration(value) {
+  if (value.toString().indexOf('s') >= 0) return value
+  return value > 30 ? value + 'ms' : value + 's'
+}
+
+function setStatus(ins, value) {
+  ins.callMethod('setStatus', { value: value })
+}
+
+// #ifdef H5
+function isPC() {
+  if (isPCFlag != -1) return isPCFlag
+  var userAgentInfo = navigator.userAgent
+  var Agents = [
+    'Android',
+    'iPhone',
+    'SymbianOS',
+    'Windows Phone',
+    'iPad',
+    'iPod',
+  ]
+  var flag = true
+  for (var i = 0; i < Agents.length; i++) {
+    if (userAgentInfo.indexOf(Agents[i]) > 0) {
+      flag = false
+      break
+    }
+  }
+  isPCFlag = flag
+  return isPCFlag
+}
+
+var movable = false
+
+function onMousedown(e, ins) {
+  if (!isPC()) return
+  onTouchstart(e, ins)
+  movable = true
+}
+
+function onMousemove(e, ins) {
+  if (!isPC()) return
+  if (!movable) return
+  onTouchmove(e, ins)
+}
+
+function onMouseup(e, ins) {
+  if (!isPC()) return
+  onTouchend(e, ins)
+  movable = false
+}
+
+function onMouseleave(e, ins) {
+  if (!isPC()) return
+  movable = false
+}
+// #endif
+
+module.exports = {
+  observeProp: observeProp,
+  observeConfig: observeConfig,
+  onTouchstart: onTouchstart,
+  onTouchmove: onTouchmove,
+  onTouchend: onTouchend,
+  onMousedown: onMousedown,
+  onMousemove: onMousemove,
+  onMouseup: onMouseup,
+  onMouseleave: onMouseleave,
+}
