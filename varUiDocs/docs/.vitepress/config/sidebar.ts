@@ -74,6 +74,7 @@ export const sidebar = {
         { link: "/guide/component/mask", text: "mask 遮罩层" },
         { link: "/guide/component/modal", text: "modal 模态框" },
         { link: "/guide/component/transition", text: "transition 动画" },
+        { link: "/guide/component/codeInput", text: "codeInput 验证码输入" },
       ],
     },
     {
