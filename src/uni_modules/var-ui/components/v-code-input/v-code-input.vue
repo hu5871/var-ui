@@ -19,8 +19,8 @@
         <view
           v-if="index - 1 === codeValue.length && mode !== 'middleLine'"
           :style="{
-            height: customWorH(24, unit),
-            width: customWorH(2, unit),
+            height: '24rpx',
+            width: '2rpx',
             background: '#000',
           }"
           :class="[isFocus ? '' : 'breath']"
@@ -61,6 +61,7 @@ import { createNamespace } from "../../lib/utils/create";
 import { customWorH } from "../../lib/share/customProps";
 import { codeInputProps } from "./v-code-input";
 import { computed, ref, watch } from "vue";
+import type { CSSProperties } from "vue";
 
 const b = createNamespace("code-input").b;
 const emit = defineEmits(["onFinish", "onChange"]);
@@ -70,7 +71,7 @@ const props = defineProps(codeInputProps);
 const codeValue = ref(props.defaultValue ?? "");
 const isFocus = ref(props.focus ?? false);
 
-const computedCodeItemStyle = (index: number) => {
+const computedCodeItemStyle = (index: number): CSSProperties => {
   const mode = props.mode;
   return {
     width: `56rpx`,
