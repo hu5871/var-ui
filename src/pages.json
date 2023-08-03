@@ -239,6 +239,13 @@
             "navigationBarTitleText": "动画",
             "enablePullDownRefresh": false
           }
+        },
+        {
+          "path": "codeInput",
+          "style": {
+            "navigationBarTitleText": "验证码输入",
+            "enablePullDownRefresh": false
+          }
         }
       ]
     },
