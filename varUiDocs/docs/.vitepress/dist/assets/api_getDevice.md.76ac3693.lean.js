@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as e}from"./app.08cfbb32.js";const A=JSON.parse('{"title":"获取系统信息","description":"","frontmatter":{},"headers":[],"relativePath":"api/getDevice.md","lastUpdated":1690801272000}'),t={name:"api/getDevice.md"},l=e("",6),p=[l];function o(c,i,r,y,d,_){return a(),n("div",null,p)}const C=s(t,[["render",o]]);export{A as __pageData,C as default};

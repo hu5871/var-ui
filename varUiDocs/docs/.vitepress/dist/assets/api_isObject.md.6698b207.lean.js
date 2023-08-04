@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,a as l}from"./app.44d9576a.js";const A=JSON.parse('{"title":"是否是对象类型","description":"","frontmatter":{},"headers":[],"relativePath":"api/isObject.md","lastUpdated":1689232209000}'),t={name:"api/isObject.md"},e=l("",5),o=[e];function p(c,i,r,y,D,C){return a(),n("div",null,o)}const d=s(t,[["render",p]]);export{A as __pageData,d as default};

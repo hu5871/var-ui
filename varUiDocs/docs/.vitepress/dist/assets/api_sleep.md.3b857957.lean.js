@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,a as n}from"./app.08cfbb32.js";const A=JSON.parse('{"title":"延时","description":"","frontmatter":{},"headers":[],"relativePath":"api/sleep.md","lastUpdated":1690801272000}'),p={name:"api/sleep.md"},t=n("",4),l=[t];function o(c,r,i,d,_,y){return a(),e("div",null,l)}const C=s(p,[["render",o]]);export{A as __pageData,C as default};

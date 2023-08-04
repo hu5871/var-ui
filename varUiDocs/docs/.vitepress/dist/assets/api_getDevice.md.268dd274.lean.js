@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,a as e}from"./app.44d9576a.js";const A=JSON.parse('{"title":"获取系统信息","description":"","frontmatter":{},"headers":[],"relativePath":"api/getDevice.md","lastUpdated":1689232209000}'),t={name:"api/getDevice.md"},l=e("",6),p=[l];function o(c,i,r,y,d,_){return a(),n("div",null,p)}const C=s(t,[["render",o]]);export{A as __pageData,C as default};

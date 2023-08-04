@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.08cfbb32.js";const A=JSON.parse('{"title":"是否是Url","description":"","frontmatter":{},"headers":[],"relativePath":"api/isUrl.md","lastUpdated":1690801272000}'),t={name:"api/isUrl.md"},o=l("",5),p=[o];function e(c,r,i,y,D,F){return a(),n("div",null,p)}const d=s(t,[["render",e]]);export{A as __pageData,d as default};
