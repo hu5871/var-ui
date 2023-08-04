@@ -12,7 +12,7 @@
         ]"
         :style="computedCodeItemStyle(index)"
       >
-        <view>{{
+        <view :style="{ marginTop: isFillText ? '8rpx' : 0 }">{{
           isFillText && codeList[index - 1] ? "*" : codeList[index - 1]
         }}</view>
         <!-- line -->
@@ -58,10 +58,10 @@
 </template>
 <script setup lang="ts">
 import { createNamespace } from "../../lib/utils/create";
-import { customWorH } from "../../lib/share/customProps";
 import { codeInputProps } from "./v-code-input";
 import { computed, ref, watch } from "vue";
 import type { CSSProperties } from "vue";
+// import { customWorH } from "../../lib/share/customProps";
 
 const b = createNamespace("code-input").b;
 const emit = defineEmits(["onFinish", "onChange"]);
