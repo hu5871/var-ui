@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as t}from"./app.44d9576a.js";const f=JSON.parse('{"title":"是否是浏览器","description":"","frontmatter":{},"headers":[],"relativePath":"api/getBrowser.md","lastUpdated":1689232209000}'),l={name:"api/getBrowser.md"},e=t("",5),o=[e];function p(c,i,r,y,d,D){return a(),n("div",null,o)}const A=s(l,[["render",p]]);export{f as __pageData,A as default};

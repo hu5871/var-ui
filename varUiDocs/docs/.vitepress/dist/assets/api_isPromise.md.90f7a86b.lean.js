@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,a as l}from"./app.08cfbb32.js";const A=JSON.parse('{"title":"是否是Promise","description":"","frontmatter":{},"headers":[],"relativePath":"api/isPromise.md","lastUpdated":1690801272000}'),t={name:"api/isPromise.md"},o=l("",5),e=[o];function p(c,i,r,y,D,C){return a(),n("div",null,e)}const d=s(t,[["render",p]]);export{A as __pageData,d as default};
