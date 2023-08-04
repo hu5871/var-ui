@@ -1,5 +1,7 @@
 /node_modules
 /dist/
+/varUiDocs/docs/.vitepress/dist
+/varUiDocs/docs/.vitepress/cache
 # /varUiDocs/docs/.vitepress/
 /varUiDocs/node_modules/
 /node_modules/
