@@ -1,7 +1,7 @@
 {
   "id": "var-ui",
   "displayName": "var-ui 组件库",
-  "version": "1.0.5", 
+  "version": "1.0.6", 
   "description": "var-ui 高体验的vue3组件库支持h5、小程序、app", 
   "keywords": [
     "var-ui",
