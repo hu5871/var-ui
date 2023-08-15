@@ -4,14 +4,14 @@
       <image :lazyLoad="lazyLoad"  :show-menu-by-longpress="props.showMenuByLongPress" :style="_style" :class="{ 'image-error': _error }"
         :src="props.src" @click.stop="handleClick" @load="handleLoad" @error="handleError" :mode="props.mode">
       </image>
-      <view class="absolute top-0 inset-x-0 inset-y-0">
+      <view class="absolute top-0 inset-x-0 inset-y-0" style="z-index: -1;">
         <slot></slot>
       </view>
     </view>
     <view class="absolute inset-x-0 inset-y-0 flex justify-center items-center" v-if="props.loading && _loadding">
-      <!-- 'image-loadding': _loadding -->
-      <!-- <image v-if="props.loadding" style="width: 10px;height: 10px;" :class="{ 'image-loadding': _loadding }"  :mode="props.mode"></image> -->
-      <v-icon :size="60" :rota="true" color="#c1c1c1" :name="loadIcon"></v-icon>
+      <slot name="loading">
+        <v-icon :size="60" :rota="true" color="#c1c1c1" :name="loadIcon"></v-icon>
+      </slot>
     </view>
   </view>
 </template>
@@ -47,6 +47,7 @@ const _style = computed(() => {
     width: customWorH(props.width, props.unit),
     height: customWorH(props.height, props.unit),
     'border-radius': customRadius(props.round, props.unit),
+    ...props._style
   }
 })
 
