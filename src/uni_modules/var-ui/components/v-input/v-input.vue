@@ -181,7 +181,8 @@ function change(event: string) {
   })
 }
 const handleInput = (e: any) => {
-  const val = props.type == 'number' ? Number.isNaN(e.detail.value) ? e.detail.value : Number(e.detail.value) : e.detail.value
+  const val = e.detail.value
+  
   emits('input', val)
   emits('change', val)
   emits('update:modelValue', val)
