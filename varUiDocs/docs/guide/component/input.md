@@ -91,7 +91,7 @@ export default {
 
 |       参数       |     类型      |    默认值     | 描述                                                         | 可选值                                     |
 | :--------------: | :-----------: | :-----------: | :----------------------------------------------------------- | ------------------------------------------ |
-|       type       |    String     |     text      | 输入框的类型                                                 | textarea、password、text、number、idcard、 |
+|       type       |    String     |     text      | 输入框的类型                                                 | textarea、password、text、idcard、 |
 |   *modelValue*   |    String     |       -       | 双向绑定的值                                                 |                                            |
 |      width       | Number,String |     100%      | 宽度                                                         |                                            |
 |     *height*     | Number,String |      68       | 高度                                                         |                                            |

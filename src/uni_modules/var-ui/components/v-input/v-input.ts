@@ -2,7 +2,7 @@ import { ExtractDefaultPropTypes, PropType } from 'vue';
 import {  IconProps } from '../v-icon/v-icon';
 import { genDefaultObjectProps } from '../../lib/share/iconDefaultProp';
 
-type InputType ='textarea' | 'password' | 'text'|'number'|'idcard'|'idcard'|'tel'|'safe-password'|'nickname' 
+type InputType ='textarea' | 'password' | 'text'|'idcard'|'idcard'|'tel'|'safe-password'|'nickname' 
 type ConfirmType ='send'|'search'|'next'|'go'|'done'
 
 export const inputProps = {
