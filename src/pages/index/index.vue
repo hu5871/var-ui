@@ -269,6 +269,12 @@ export default {
           page: "/pages/show/progress",
           title: "progress 进度条",
         },
+        {
+          icon: "icon-albums",
+          iconColor: "white",
+          page: "/pages/show/skeleton",
+          title: "skeleton 骨架屏",
+        },
       ],
       feedback: [
         {

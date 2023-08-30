@@ -354,6 +354,13 @@
             "navigationBarTitleText": "进度条",
             "enablePullDownRefresh": false
           }
+        },
+        {
+          "path": "skeleton",
+          "style": {
+            "navigationBarTitleText": "骨架屏",
+            "enablePullDownRefresh": false
+          }
         }
       ]
     },

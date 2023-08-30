@@ -40,6 +40,7 @@ export const sidebar = {
         { text: "steps 步骤条", link: "/guide/component/steps" },
         { text: "watermark 水印", link: "/guide/component/watermark" },
         { text: "progress 进度条", link: "/guide/component/progress" },
+        { text: "skeleton 骨架屏", link: "/guide/component/skeleton" },
       ],
     },
     {
